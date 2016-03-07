@@ -1,9 +1,22 @@
 <meta charset="UTF-8">
-<title>{{ site.name }}{% if page.title %} - {{ page.title }} {% endif%}</title>
+<title>{% if page.title %} {{ page.title }} {% endif%}</title>
 
 {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
 
 <meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1'/>
+
+<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+<meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 80 }}{% else %}{{ page.title }}{% endif %}" />
+<meta property="og:image" content="{{ page.featimg }}" />
+<meta property="og:site_name" content="AAM" />
+<meta property="og:type" content="article" />
+
+<meta name="twitter:card" content="summary"  />
+<meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+<meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 80 }}{% else %}{{ page.title }}{% endif %}" />
+<meta name="twitter:image" content="{{ page.featimg }}" />
+<meta name="twitter:site" content="" />
+<meta name="twitter:creator" content="" />
 
 <link rel="stylesheet" href="{{ site.baseurl | replace: '//', '/' }}/css/main.css">
 
