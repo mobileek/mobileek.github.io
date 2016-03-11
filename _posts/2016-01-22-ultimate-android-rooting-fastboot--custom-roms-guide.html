@@ -1,0 +1,239 @@
+---
+type: "standard"
+title: "Ultimate Android Rooting, Fastboot & Custom ROMs Guide"
+featimg: "http://cdn.trendblog.net/wp-content/uploads/2013/03/guide-to-android-rooting-custom-rom-apps-150x150.jpg"
+description: "This guide provides an overview of the best Android Custom ROMs, how to root your device and the most important fastboot commands."
+origin_url: "http://trendblog.net/guide-to-android-rooting-custom-roms-apps/"
+social_media_msg: "Ultimate Android Rooting, Fastboot & Custom ROMs Guide"
+---
+
+<div><img class="img-responsive"   src="http://cdn.trendblog.net/wp-content/uploads/2013/03/guide-to-android-rooting-custom-rom-apps.jpg"  alt="Guide to Android Rooting, Custom ROMs and Apps">								<p>Android and iOS are the&#160;<a title="Android Continues Its Triumph: Nearly 75% Of All Smartphone Sales In Q1 Were Android" href="http://trendblog.net/android-continues-its-triumph-nearly-75-of-all-smartphone-sales-in-q1-were-android/" target="_blank">most popular mobile operating systems</a>&#160;on the market. Both offer a variety of apps and settings but, eventually reach their limits at a certain point. Rooting or&#160;<a title="Best iOS Jailbreak Apps &#8211; Essential Guide" href="http://trendblog.net/jailbreak-ios-9/" target="_blank">Jailbreaking</a>&#160;your phone (or tablet) will offer you thousands of <a title="What Is Xposed Framework And How To Install It On Your Android Device" href="http://trendblog.net/xposed-framework-install/" target="_blank">tweaks</a>, <a title="Themer App Review &#8211; Easily Install Beautiful Themes In One Click" href="http://trendblog.net/themer-app-review-android-theming-customization-easy/" target="_blank">skins</a> and <a title="Got A New Android Device For Christmas? Check Out These Must-Have Apps!" href="http://trendblog.net/got-new-android-device-christmas-check-out-must-apps/" target="_blank">new apps</a> that you should not miss out on. It will also help you to <a title="How to delete HTC, Samsung or LG apps from your Android phone" href="http://trendblog.net/delete-htc-samsung-lg-apps-android-phone/" target="_blank">remove bloatware</a>.</p> 
+<p ></p>
+<p>This guide is based on Google Nexus devices,&#160;but most of the things also apply to other Android devices. Some might require more work while others can be rooted quite easily, but in the end it&#8217;s no rocket science. Rooting and customisation is especially easy on Nexus devices as factory images are <a href="https://developers.google.com/android/nexus/images" target="_blank">freely available on the Google website</a>.&#160;However, many other popular devices like the can easily be restored using different tools available on XDA developers. I would suggest to have a quick look at the forums and I&#8217;m pretty sure that you&#8217;ll find help for your device.</p>
+<h2 id="rooting-terms">Android Rooting Terms You Should Know</h2>
+<p>Before we get started, I would like to explain a few terms because the terminology can get complicated and confusing. This will help you to understand other device specific guides. I&#8217;ll try to keep it short and not go into (technical) details. Please share any questions regarding this in the comments below &#8211; I&#8217;ll do my best to answer them.</p>
+<h3>ART</h3>
+<p>ART stands for <strong>A</strong>ndroid <strong>R</strong>un<strong>t</strong>ime and replaces the formerly used Dalvik cache. It was introduced in Android 4.4 and has completely taken over in Android 5.0. I don&#8217;t want to go too deep into technical differences, but ART is said to improve battery life and app performance, amongst others.</p>
+<h3 id="bootloader">Bootloader</h3>
+<p>The Bootloader is your phone&#8217;s software foundation. It&#8217;s basically what runs before your operating system starts (like a PC&#8217;s BIOS). As many manufactures don&#8217;t want you to modify your phone&#8217;s OS, it needs to be unlocked before you are able to root your phone or install custom ROMs (explained later).</p>
+<h3 id="brick">Brick</h3>
+<p>This is something you don&#8217;t want to happen to your Android device. Like the name already implies, a bricked phone (or tablet) can only be used as a paperweight or nice decoration for your apartment. Bricked devices are irreversibly damaged and won&#8217;t work anymore. This can, for instance, happen if damaged ROMs are installed or wrong firmwares are flashed. Always make sure to read instructions and verify checksums (a set of numbers that identify the file) to make sure nothing goes wrong. If you&#8217;re lucky and your device is only soft-bricked, meaning that it does not boot but still turns on, you might be able to <a title="How To Fix Your Soft-Bricked Android Device &#8211; First Aid Guide" href="http://trendblog.net/fix-soft-bricked-android-device-first-aid-guide/" target="_blank">get it back to life</a>.</p>
+<h3 id="busybox">BusyBox</h3>
+<p>Android, being based on Linux/Unix, offers a limited amount of UNIX commands (which most users won&#8217;t need anyways). BusyBox will implement more commands that are necessary for some root apps to work properly.</p>
+<h3 id="custom-ROM-term">Custom ROM</h3>
+<p>A custom ROM is a modified version of the Android operating system. Tweaks, additional features, different themes or an enhanced performance are usually included. Custom ROMs also offer the possibility to use a newer, unreleased, version of Android on your phone that might usually not be available for your device because of restrictions from manufacturer or providers.</p>
+<h3><strong>Dalvik</strong></h3>
+<p>Dalvik is a virtual machine that processes Android app code. Consequently, it is responsible for translating app code into actions on your Android device.</p>
+<h3 id="fastboot">Fastboot</h3>
+<p>Fastboot is a diagnostic- and engineering tool which offers you several features such as launching in recovery mode or flashing image files.</p>
+<h3 id="kernel">Kernel</h3>
+<p>The kernel is the brain of your phone that controls how the system and hardware interact. It&#8217;s basically the lowest level of your operating system that manages memory and hardware.</p>
+<h3>NAND partition</h3>
+<p>NAND stands for &#8220;Negated AND&#8221; or &#8220;NOT AND&#8221; and describes the hard drive partition that stores all system relevant information like the bootloader, recovery mode or the kernel.</p>
+<h3 id="nandroid-backup">NANDroid backup</h3>
+<p>A <a title="Android Guide: How To Make A Nandroid Backup Of Your Android Phone" href="http://trendblog.net/android-guide-make-nandroid-backup-android-phone/" target="_blank">NANDroid backup is a complete system backup of your Android device</a>. This backup can be restored later and might save your phone after flashing a faulty ROM or theme.</p>
+<h3 id="radio">Radio</h3>
+<p>The radio is responsible for sending and receiving voice and data. Using an optimized radio can improve your phone&#8217;s reception or increase battery life.</p>
+<h3 id="recovery-mode">Recovery Mode</h3>
+<p>Recovery mode offers you the possibility to perform system-level tasks (like formatting, defragmenting, etc.), backing-up your devices or install custom ROMs. Android offers a limited stock recovery function. More sophisticated recoveries like ClockworkMod Recovery and TWRP Recovery offer additional features and are easier to use.</p>
+<h3 id="root">Root</h3>
+<p><a title="How To Root Any Google Nexus Device" href="http://trendblog.net/how-to-root-your-google-nexus-device-4-5-7-10/" target="_blank">Rooting</a> will give you full administrator access of your device. It might also void your warranty (depending on the device and your place of residence), so make sure to handle your device with care after rooting it. You are always able to revert this process by simply flashing a stock-ROM (the original ROM installed by your phone&#8217;s manufacturer). Doing this will also &#8220;restore&#8221; your warranty.</p>
+<h3 id="s-off">S-OFF</h3>
+<p>S-OFF means that the NAND partition of your Android device is unlocked. This mostly applies to HTC phones.</p>
+<h3 id="superuser">Superuser</h3>
+<p>Rooting your phone will create a new &#8220;account&#8221; with complete administrative permissions. This superuser account is used by some apps and functions.</p>
+<h3>Xposed Framework</h3>
+<p>Xposed Framework is an app that can be<a title="What Is Xposed Framework And How To Install It On Your Android Device" href="http://trendblog.net/xposed-framework-install/" target="_blank"> installed on a rooted Android device</a> which <a title="Best Xposed Framework Extensions For Custom Rom Features" href="http://trendblog.net/best-xposed-framework-extensions/" target="_blank">offers custom ROM like features on stock Android</a>. It&#160;has been updated and is now fully compatible to Android 5.0 and Android 6.0.</p>
+<h2 id="reasons-to-root">5 Reasons to root</h2>
+<p>With Android becoming better and better, many people ask themselves if it&#8217;s still worth rooting. For example, you&#8217;re not able to use Android Pay if your Android phone is rooted. The same applies in other cases, where App developers decide to not support rooted devices for security reasons.</p>
+<p>In addition to that, Android M will come with many features like &#8220;Doze&#8221; which basically replace root apps such as Greenify. So what exactly are reasons to root in 2016?</p>
+<ol>
+<li><strong>You have an old(er) Android device.</strong> With root access, you&#8217;re able to flash a custom ROM with the latest version of Android. Because of this, you don&#8217;t rely so much on your device manufacturer to keep you up to date.</li>
+<li><strong>AdAway.&#160;</strong>While I&#8217;m all-in for supporting developers, some apps don&#8217;t offer an ad-free paid version. With AdAway you&#8217;re able <a href="http://trendblog.net/best-android-adblocker-for-rooted-unrooted-devices/" target="_blank">to get rid of all unwanted ads</a> which is simply not possible without root.</li>
+<li><strong>Titanium Backup.&#160;</strong>Android M will bring Auto Backup for Apps, but unfortunately it&#8217;s still up to the developer if he/she wants to implement it or not. <a href="http://trendblog.net/make-backups-android-apps-titanium-backup/" target="_blank">Titanium Backup is a simply but powerful tool</a> that backups simply everything.</li>
+<li><strong>Change DPI.&#160;</strong>With many devices coming with high-res displays nowadays, some people prefer to have more screenspace than big app icons. While changing DPI can also be done without root, it often breaks different apps.</li>
+<li><strong>Remove bloatware. </strong>This one is easy. <a href="http://trendblog.net/delete-htc-samsung-lg-apps-android-phone/" target="_blank">Remove all the crap</a> your mobile carrier put on your device. Who doesn&#8217;t want to do this?</li>
+</ol>
+<h2 id="backup-without-root">How to Fully Backup Your Device Without Root</h2>
+<p>If your Android device is not rooted yet, you won&#8217;t be able to perform NANDroid backups. I wouldn&#8217;t suggest to root your tablet or phone without having a proper backup, because there is always a chance of error and you <a title="How To Fix Your Soft-Bricked Android Device &#8211; First Aid Guide" href="http://trendblog.net/fix-soft-bricked-android-device-first-aid-guide/" target="_blank">don&#8217;t want to brick your device</a>.</p>
+<p><a title="Simple ADB Backup" href="http://forum.xda-developers.com/showthread.php?p=36499906" target="_blank">Simple ADB Backup</a>&#160;let&#8217;s you create a full backup of your device without root access and is the perfect solution for users without root access. The free program also offers a restore function and runs on Windows and Linux.</p>
+<p>If you&#8217;re already rooted, make sure to check out our <a title="Android Guide: How To Make A Nandroid Backup Of Your Android Phone" href="http://trendblog.net/android-guide-make-nandroid-backup-android-phone/" target="_blank">guide on performing a NANDroid backup</a>.</p> 
+<p>&#160;</p>
+<h2 id="how-to-root">How to Root Your Android Device</h2>
+<p>The rooting process differs from device to device which makes it impossible to give general instructions on rooting here. I&#8217;ve linked guides for some of the most popular devices below. Using the terms described earlier should make the rooting process easier for you. If your phone or tablet is not on the list, you most certainly can find a guide on the&#160;<a title="XDA-Developers Forum" href="http://forum.xda-developers.com/" target="_blank">XDA-Developers forums</a>.</p>
+<p><a title="How To Root Any Google Nexus Device" href="http://trendblog.net/how-to-root-your-google-nexus-device-4-5-7-10/" target="_blank">Google Nexus 4, Nexus 5, Nexus 7 and Nexus 10<br>
+</a><a href="http://forum.xda-developers.com/nexus-6p/general/guides-how-to-guides-beginners-t3206928" target="_blank">Google Nexus 6P<br>
+</a><a href="http://forum.xda-developers.com/nexus-5x/general/guides-how-to-guides-beginners-t3206930" target="_blank">Google Nexus 5X<br>
+</a><a href="http://androidmtk.com/root-oneplus-2" target="_blank">Oppo OnePlus 2</a><a title="Samsung Galaxy S4 Guide" href="http://forum.xda-developers.com/showthread.php?t=2252248" target="_blank"><br>
+</a><a href="http://forum.xda-developers.com/galaxy-s6/general/root-pingpongroot-s6-root-tool-t3103016" target="_blank">Samsung Galaxy S6</a><a title="How to root LG G3 &amp; remove bloatware" href="http://trendblog.net/how-to-root-lg-g3-remove-bloatware/" target="_blank"><br>
+</a><a href="http://forum.xda-developers.com/g4/orig-development/root-tmo-vzw-intl-variants-soon-root-lg-t3164765" target="_blank">LG G4</a><br>
+<a href="http://www.xda-developers.com/root-twrp-available-for-samsung-galaxy-note-5/" target="_blank">Samsung Galaxy Note&#160;5</a></p>
+<p>Always make sure to perform NANDroid backups of your devices to be able to restore your phone or tablet to a working state. I would also recommend to validate checksums and carefully read through the instructions to avoid bricking your device.</p>
+<h2 id="fastboot-commands">Most Important Fastboot Commands</h2>
+<p>When confronted with Android rooting, you often have to work with fastboot. Fastboot is&#160;part of Google&#8217;s Android SDK and is mostly used to re-flash partitions on your Android device, similar to (custom) recovery mode. You usually use fastboot in the following manner:</p>
+<pre >fastboot [ &lt;option&gt; ] &lt;command&gt;</pre>
+<p>Here&#8217;s a list of all options and commands:</p>
+<h3>Options</h3>
+<p><strong>-w</strong> erase userdata and cache<br>
+<strong>-s &lt;serial number&gt;</strong> specify device serial number<br>
+<strong>-p &lt;product&gt;</strong> specify product name<br>
+<strong>-c &lt;cmdline&gt;</strong> override kernel commandline<br>
+<strong>-i &lt;vendor id&gt;</strong> specify a custom USB vendor id<br>
+<strong>-b &lt;base_addr&gt;</strong> specify a custom kernel base address<br>
+<strong>-n &lt;page size&gt;</strong> specify the nand page size. default:&#160;2048</p>
+<h3>Commands</h3>
+<p><strong>update &lt;filename&gt;</strong> reflash device from update.zip<br>
+<strong>flashall</strong> flash boot + recovery + system<br>
+<strong>flash &lt;partition&gt; [ &lt;filename&gt; ]</strong> write a file to a flash partition<br>
+<strong>erase &lt;partition&gt;</strong> erase a flash partition<br>
+<strong>getvar &lt;variable&gt;</strong> display a bootloader variable<br>
+<strong>boot &lt;kernel&gt; [ &lt;ramdisk&gt; ]</strong> download and boot kernel<br>
+<strong>flash:raw boot &lt;kernel&gt; [ &lt;ramdisk&gt; ]</strong> create bootimage and flash it<br>
+<strong>devices</strong> list all connected devices<br>
+<strong>reboot</strong> reboot device normally<br>
+<strong>reboot-bootloader</strong> reboot device into bootloader</p>
+<p>Now that we&#8217;ve covered all existing fastboot commands and options, let&#8217;s have a closer look at the most important ones and what they do / mean:</p>
+<pre >fastboot oem unlock</pre>
+<p>&#160;</p>
+<p>This is a special command and not part of the initial list. Using this command, you can unlock the bootloader for Google Nexus devices.</p>
+<pre >fastboot flash recovery <strong>recovery.img</strong></pre>
+<p>&#160;</p>
+<p>This command will flash a custom recovery to your Android device. Depending on the file name, you need to change the bold part of the command. Please not that this only works with <strong>*.img&#160;</strong>files</p>
+<pre >fastboot -w</pre>
+<p>&#160;</p>
+<p><strong>Caution:&#160;</strong>This command will completely wipe your device</p>
+<pre >fastboot update filename.zip</pre>
+<p>&#160;</p>
+<p>This command will update your ROM based on the provided *.zip file</p>
+<h2 id="custom-recovery">Custom Recovery Mode</h2>
+<p>The standard Android recovery mode is very limited and does not offer many features. That&#8217;s where replacement recoveries like Team Win Recovery Project (TWRP) and ClockworkMod Recovery (CWRM) come in place. They offer the possibility to flash custom ROMs which is not possible with the stock recovery mode. Other features include a file browser for update.zips, adb shell and NANDroid backups. Without a custom recovery <strong>you won&#8217;t be able</strong> to flash a custom ROM.</p>
+<p>It does not really matter which replacement recovery you install, just go with the one that suits you most. In some rare cases the root script or custom ROM installation only works with either TWRP or CWM.&#160;Nowadays, TWRP is the king of custom recoveries and would be my suggestion for you to use.</p>
+<h3 id="TWRP">TWRP &#8211; Team Win Recovery Project</h3>
+<p><a title="TWRP" href="http://teamw.in/project/twrp2" target="_blank">Team Win Recovery Project</a>&#8216;s custom recovery offers an easy and touch driven user interface. It includes all typical recovery features needed to install custom ROMs, kernels, other tweaks and many more. You are also able to backup and restore your device using TWRP.</p>
+<p><a href="http://cdn.trendblog.net/wp-content/uploads/2013/08/twrp.png" rel="lightbox[5631]"><img class="img-responsive" src="http://cdn.trendblog.net/wp-content/uploads/2013/08/twrp.png" alt="TWRP"  ></a></p>
+<h3 id="CWM">CWM &#8211; Clockworkmod Recovery</h3>
+<p><a title="CWM" href="http://www.clockworkmod.com/" target="_blank">ClockworkMod Recovery</a>&#160;used to be one of the most popular custom recovery modes. However, in the last 2 years TWRP took over the throne and became the most popular recovery. It also includes all advanced recovery features like installing custom ROMs and other files, as well as a backup and restore function. You can control the CWM UI via touch or key-input.</p>
+<p><img class="img-responsive" src="http://cdn.trendblog.net/wp-content/uploads/2013/08/CWM.jpg" alt="CWM"  ></p>
+<p>&#160;</p>
+<h2 id="ROM-versions">Understanding Custom ROM Versions</h2>
+<p>As Custom ROMs are constantly improved, they usually come in four different categories: Nightly, Milestone, Release Candidate and Stable. This is what you can expect in every stage:</p> 
+<h3 id="nightly">Nightly</h3>
+<p>Nightly versions are usually generated every 24 hours and can be highly experimental and unstable. Especially early versions of a new custom ROM can have many bugs and missing features. If you want to have the latest features while risking instability &#8211; go for nightlies!</p>
+<h3 id="milestone">Milestone Snapshot</h3>
+<p>Milestone Snapshots are basically nightly versions that have reached a certain milestone. They can be regarded as being quite stable, but may include certain bugs and issues. Since they are only created every few weeks (or months), they won&#8217;t have the latest features that might be included in the nightly versions. If you are looking for the latest features while having a rather stable system, check out milestone snapshots.</p>
+<h3 id="rc">Release Candidate</h3>
+<p>Release candidates, as the name already implies, are one of the last builds before the stable version of a custom ROM is released. RCs are mostly stable but might have a few minor issues. If you&#8217;re looking for something stable and ready for daily use, I would recommend to go with release candidates!</p>
+<h3 id="stable">Stable</h3>
+<p>Stable versions are (obviously) the most stable versions around, with all or nearly all problems fixed. Some stable ROMs may still include some smaller issues or certain things not working. Stable versions are definitely the safest way to go, but it might take months before a new stable with new features or fixes is released.</p>
+<h3>Official, Unofficial &amp; Combined Releases</h3>
+<p>It is also important to say that custom ROMs are often available as official and unofficial&#160;releases. Later use the source code of the official release (if publicly available) and adapt it to devices not supported by the main developers. Unfortunately, this often leads to a delay. In addition to that, many developers combine features of different custom ROMs.</p>
+<h2 id="custom-ROM">Custom ROMs</h2>
+<p>Custom Roms offer you a variety of new features, tweaks and visual enhancements. The best source to find a working one for your device is the XDA-Developers forum. Many custom ROMs are based on the two big releases: CyanogenMod and Paranoid Android. The easiest way to find the best custom ROM for you is to compare their features or simply test them for a few days. To make your start easier, I&#8217;ve written a few words about the major custom ROMs below.</p>
+<p>I&#8217;m only able to give you a limited overview in here. If you really want to dive in I would recommend checking out your device specific <a href="http://forum.xda-developers.com/" target="_blank">sub forums on XDA developers</a>. With Android modding becoming more and more popular, you&#8217;re often able to find many different custom ROMS for your device, especially if it&#8217;s one of the more popular phones or tablet.</p>
+<h3 id="cyanogenmod">CyanogenMod</h3>
+<p><a href="http://www.cyanogenmod.org/" target="_blank"><img class="img-responsive"  src="http://cdn.trendblog.net/wp-content/uploads/2013/03/CyanogenMod-logo-300x47.png" alt="CyanogenMod Logo"  ></a></p>
+<p><a title="CyanogenMod Website" href="http://www.cyanogenmod.org/" target="_blank">CyanogenMod</a>&#160;looks very similar to stock Android, but offers several enhancements and tweaks. Besides increased system performance and reliability, it includes many interface enhancements and integrated features. CM is one of the most popular custom ROM solutions as it brings a stock Android experience to many devices that come with a heavily-skinned Android version such as LG or Samsung Galaxy devices.</p>
+<h4 id="cyanogenmod-features">CyanogenMod Features</h4>
+<ul>
+<li>OpenVPN integration</li>
+<li>Lockscreen gestures</li>
+<li>Expanded quick settings</li>
+<li>DSP equalizer</li>
+<li>Complete Theme engine including own theme store</li>
+<li>Wi-Fi, bluetooth, and USB tethering</li>
+<li>CPU over- &amp; underclocking</li>
+<li>Based on Stock Android</li>
+</ul>
+<h4 id="cyanogenmod-version">Latest CyanogenMod Version</h4>
+<p>CyanogenMod is usually up-to-date and uses the latest Android version. The latest version available is:</p>
+<ol>
+<li>CM 13.0 &#8211; based on Android 6.0&#160;Marshmallow</li>
+</ol>
+<p>A quite unique feature of CyanogenMod is it&#8217;s installer which makes installing the custom ROM quite easy. Besides flashing the ROM it will also root your Android device and will guide you through the whole process. Unfortunately, the <a href="http://beta.download.cyanogenmod.org/install" target="_blank" rel="nofollow">installer is currently only available for Windows</a>.</p>
+<p>CyanogenMod is available for the majority of popular Android devices. You can&#160;<a title="List of Supported CyanogenMod Devices" href="http://wiki.cyanogenmod.org/index.php?title=Devices" target="_blank">find a list of supported devices</a>&#160;on the CyanogenMod website.</p>
+<h3>BlissRom</h3>
+<p><img class="img-responsive"  src="http://cdn.trendblog.net/wp-content/uploads/2014/12/blissroms-300x194.png" alt="blissroms"  ></p>
+<p>BlissRom is a new kid on the block. They basically take CyanogenMod as a source and add some magic to its.&#160;While updates are not as frequent as with CyanogenMod, the team covers the most important stuff and usually releases up-to-date stuff.</p>
+<h4>BlissRom Features</h4>
+<ul>
+<li>Based on CyanogenMod (= all of its features)</li>
+<li>Audio Improvements</li>
+<li>Endless list of visual improvements</li>
+<li>Global gestures</li>
+<li>Modified power menu</li>
+</ul>
+<h4>Latest BlissRom Version</h4>
+<p>The latest BlissRom version is based on CM 12.1 and is called BlissPop&#160;and still&#160;running Android 5.1.1.</p>
+<p>BlissRom is available on a range of devices. You can find a <a href="http://blissroms.com/index.php?page=Devices" target="_blank">list here</a>.</p>
+<h3 id="paranoidandroid">ParanoidAndroid</h3>
+<p><a href="http://cdn.trendblog.net/wp-content/uploads/2013/03/aokp-logo.png" rel="lightbox[5631]"><br>
+</a><a href="http://paranoidandroid.co" target="_blank"><img class="img-responsive"  src="http://cdn.trendblog.net/wp-content/uploads/2013/03/paranoidandroid21.png" alt="Paranoid Android Logo"  ></a></p>
+<p>ParanoidAndroid is completely different to CyanogenMod and one of the &#8220;newer&#8221; custom ROMs out there.&#160;It&#8217;s currently my favorite custom ROM as it&#8217;s fairly close to stock Android while adding cool features like <a href="https://www.youtube.com/watch?v=Cmz1FfYV-X4" target="_blank">Peek&#160;</a>and <a href="https://www.youtube.com/watch?v=YdOMk5QMfd8" target="_blank">Hover</a>. Next to CyanogenMod it seems like PA is king in the custom ROM scene. Unfortunately, the team only supports a small range of devices (Google Nexus &amp; Oppo, OnePlusOne). There&#160;are, however, so-called <strong>Legacy</strong> versions available which support other devices.</p>
+<h4 id="paranoidandroid-features">ParanoidAndroid Features</h4>
+<ul>
+<li>Floating notifications &amp; multitasking</li>
+<li>Hidden Navigation PIE mode</li>
+<li>UI customization</li>
+<li>Gesture controls</li>
+<li>CyanogenMod themes support</li>
+</ul>
+<p>I was running PA on my Nexus devices and really loved it. It&#8217;s stable, fast and battery life is great. I can highly recommend this ROM.</p>
+<h4 id="paranoidandroid-version">Latest ParanoidAndroid Version</h4>
+<p>The latest PA version is based on Android 5.0 Lollipop. PA usually works with nightly version that are quite stable and frequently updated. Unfortunately it has not been updated to Marshmallow yet. It also seems like the official&#160;version for Oppo devices is maintained more frequently than the legacy versions.</p>
+<h4 id="paranoidandroid-availability">ParanoidAndroid Availability</h4>
+<p>An overview of officially supported Google Nexus, OnePlusOne and Oppo devices can be found <a href="http://get.aospa.co/official" target="_blank">here</a>. Legacy devices are listed <a href="http://get.aospa.co/legacy" target="_blank">here</a>.</p>
+<h3>Device-specific custom ROMs</h3>
+<p>The custom ROM scene developed&#160;itself into a certain direction in the last year, especially with stock ROMs&#160;including more and more features.&#160;As device manufacturers often don&#8217;t publish official drivers, custom ROMs like CyanogenMod are not able to support all features. Because of this, custom ROMs are often developing in a direction of adapting ads to devices. Because of this, I cannot give you great recommendation for all devices. I would personally suggest to either go with the big players like CyanogenMod or look for a popular specific ROM for your device. The XDA Developers forums should do the trick for that.</p>
+<h3></h3>
+<h2 id="custom-kernel">Flashing Custom Kernels</h2>
+<p>Kernels are the brain of your Android device and communicate between software and hardware. Therefore, they are responsible for managing things like CPU / GPU clocking speed, screen sensitivity / colors or voltage. By using a custom kernel you can not only improve battery life, but also increase system performance.</p>
+<p>Many custom ROMs already come with their own kernels. This is done to implement software communication of the custom ROM with the hardware of the device and also to ensure a better performance. Nevertheless, you are often also able to flash custom kernels to custom ROMs. If you decided to stick to a rooted version of stock Android, flashing a new kernel can offer you additional performance with the convenience of a stock OS. Unfortunately, there are no &#8220;big&#8221; kernel releases that work for multiple devices and it&#8217;s hard for me to give any suggestions here. I would suggest to check the dedicated XDA-Developers forum for your device and have a look for yourself.</p>
+<p>After downloading the custom kernel, you usually have to reboot to recovery and flash it from there. That&#8217;s it!&#160;Always make sure to check compatibility of the kernel with your ROM and device, because flashing a wrong kernel can brick your phone!</p> 
+<h2 id="root-apps">Apps</h2>
+<p>Rooting your Android device will offer you many benefits. Besides the features mentioned above, you can also install great apps that require to go deep into the system. Using them with an un-rooted device is not possible. Below I&#8217;ve listed a few apps that I like and use on an everyday basis. Feel free to share other apps in the comments section below!</p>
+<h4 id="titanium-backup"><strong>Titanium Backup</strong></h4>
+<p><a title="Titanium Backup on Google Play" href="https://play.google.com/store/apps/details?id=com.keramidas.TitaniumBackup&amp;hl=en" target="_blank">Titanium Backup</a>&#160;is a <a title="How To Make Backups Of Your Android Apps With Titanium Backup" href="http://trendblog.net/make-backups-android-apps-titanium-backup/" target="_blank">great backup tool for Android devices</a> that offers tons of features. It provides the possibility to backup your data, settings and apps. Scheduled backups are also available. The paid pro version offers lots of great features like syncing backups with cloud-based storage providers such as Dropbox, Google Drive or Box. In my opinion this is one of the best root apps and a must-get. Especially if you&#8217;re a flash-a-holic, performing and restoring quick backups of all your apps (incl. settings and save games) is really easy and convenient with Titanium Backup.</p>
+
+		 
+		<p>&#160;</p>
+<h4 id="ROM-manager"><strong>ROM Manager</strong></h4>
+<p>When you constantly switch between custom ROMs,&#160;<a title="ROM Manager on Google Play" href="https://play.google.com/store/apps/details?id=com.koushikdutta.rommanager" target="_blank">ClockworkMod&#8217;s ROM Manager</a>&#160;is one of the essential apps to get. Besides flashing ClockworkMod recovery, it will help you to organise and install your custom ROMs and backing-up your Android device. The&#160;<a title="ROM Manager Licence on Google Play" href="https://play.google.com/store/apps/details?id=com.koushikdutta.rommanager.license" target="_blank">paid premium version</a>&#160;includes additional features like automatic backups, web connect and incremental ROM downloads.</p>
+
+		 
+		<h4 id="AdAway"><strong>AdAway</strong></h4>
+<p>I struggled a little bit when deciding to either include AdAway or not, because it&#8217;s great for users but bad for app publishers and marketers. Google removed it from Google Play but you can still get it on the AdAway website. Like AdBlock Plus on your computer, the app modifies your Android devices hosts file to prevent apps and browsers to display advertisements. This will not only improve your app usage experience, but also increase battery life and decrease mobile traffic. Be fair and purchase paid versions of apps or donate a small amount to developers to make sure they will keep on programming great apps!</p>
+<p>Google has recently begun to remove certain apps that violate their distribution agreements from Google Play. If you&#8217;re still interested in installing AdAway, please refer to the&#160;<a title="AdAway Website" href="http://sufficientlysecure.org/index.php/adaway/" target="_blank" rel="nofollow">AdAway website</a>.</p>
+
+		 
+		<h4>Xposed Framework</h4>
+<p>Xposed Framework is a great app that offers the possibility to add features to your Android devices without flashing a custom ROM (or in addition to it). &#160;You&#8217;re able to install modules which offer visual customisation or battery improvements, amongst others.</p>
+<h4 id="greenify"><strong>Greenify</strong></h4>
+<p><a title="Greenify on Google Play" href="http://trendblog.net/go/greenify" target="_blank">Greenify</a>&#160;is a great app to improve battery life and system performance because it puts selected apps in hibernation mode. Not having tons of apps stored in RAM or running as system processes will make your Android device faster and increase your user experience. Please refer to&#160;<a title="How to Increase Android Battery Life and Performance With Greenify" href="http://trendblog.net/increase-android-battery-life-performance-greenify/" target="_blank">full review</a>&#160;for more information.</p>
+
+		 
+		<h2 id="FAQ">Frequently Asked Rooting Questions</h2>
+<h4>1. How can I restore stock Android?</h4>
+<p>To get back stock Android, simply flash a stock ROM suitable for your device. This way you&#8217;ll get an unrooted, stock Android version with restored warranty.</p>
+<h4>2. What happens to my settings, contacts and apps when I install a custom ROM?</h4>
+<p>It&#8217;s always recommended to wipe your device before installing a custom ROM for the first time. If your Google account is linked to your phone, contacts, emails and apps will automatically be downloaded after launching the custom ROM and logging in to your Google account. You can backup your settings with apps like XYZ.</p>
+<h4>3. How can I upgrade a custom ROM?</h4>
+<p>Most custom ROMs offer a update function, some directly integrated to the OS, others using a specific app. You can also use ROM Manager to update certain custom ROMs.</p>
+<h4>4. Is it possible to just root a phone and not install a custom ROM?</h4>
+<p>Yes, simply use a stock ROM and root it. If you update it, your root-access will be gone, though.</p>
+<h4>5. Do I need to go step-by-step to upgrade my Android device or can I directly go to the latest version available?</h4>
+<p>You can usually simply flash the latest ROM and are good to go. Custom ROM updates usually come in a full package, meaning that you have to download the complete ROM to update it. The downloads are usually about 100-200 MB.</p>
+<p><strong>6. Is there a special order to flash a ROM or kernel?</strong></p>
+<p>I would suggest flashing the ROM first as they often include their own custom kernels. Afterwards, boot your phone with the custom ROM, go back to the recovery mode and flash the kernel. Also make sure to check whether your custom kernel is supported by the ROM.</p>
+<p><strong>7. Can I update or change certain parts of Android without flashing a ROM?</strong></p>
+<p>Not in terms of getting a newer Android version. However, you should have a look at <a title="Best Xposed Framework Extensions For Custom Rom Features" href="http://trendblog.net/best-xposed-framework-extensions/" target="_blank">Xposed Framework</a> as it brings many custom ROM features to your Android installation.</p>
+<p><strong>8. Do I have to downgrade my phone to flash ROM XYZ?</strong></p>
+<p>No &#8211; as long as your bootloader is unlocked and you have a custom recovery installed. With some devices, you need to downgrade to be able to do that. Custom ROMs usually don&#8217;t require a certain Android version because everything OS-wise is overwritten anyways.</p>
+<p><strong>9. Is there a custom ROM for my phone / tablet?</strong></p>
+<p>I would recommend to head over to the XDA developers forums and perform a search query there. If you&#8217;re using one of the popular devices there are usually many custom ROMs available. You can always check out <a title="Best Xposed Framework Extensions For Custom Rom Features" href="http://trendblog.net/best-xposed-framework-extensions/">Xposed Framework</a> to add some more features to your Android device if no custom ROM is available.</p>
+<p>&#160;</p>
+<h2>Final Words</h2>
+<p>Do you have any questions about the rooting process, custom ROMs, tweaks or apps? Do you maybe want to share other great apps that I might have forgotten? Feel free to do so in the comments below!</p>
+<p>Are you interested in more Android related guides?<br>
+Have a look at our&#160;<a title="Ultimate Android Rooting, Customization &amp; Knowledge Database" href="http://trendblog.net/android-rooting-customization-knowledge-database/">Android knowledge database</a>.</p>
+ 					&#13;
+				</div>
