@@ -15,8 +15,8 @@
 <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
 <meta name="twitter:description" content="{{ page.description }}" />
 <meta name="twitter:image" content="{{ page.featimg }}" />
-<meta name="twitter:site" content="" />
-<meta name="twitter:creator" content="" />
+<meta name="twitter:site" content="{{ site.twitter_site }}" />
+<meta name="twitter:creator" content="{{ site.twitter_creator }}" />
 
 <link rel="stylesheet" href="{{ site.baseurl | replace: '//', '/' }}/css/main.css">
 
