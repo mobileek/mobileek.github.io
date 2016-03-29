@@ -15,7 +15,11 @@ author_dir: /author
 author_title_prefix: 'Posted by '
 media_folder: /media/compressed
 author_default_avatar: /profile-pic.jpg
+
 google_analytics_id: 'UA-74423939-1'
+#twitter_site: @SlashBoom1
+#twitter_creator: @SlashBoom1
+
 #tumblr: "#"
 #pinterest: "#"
 #instagram: "#"
