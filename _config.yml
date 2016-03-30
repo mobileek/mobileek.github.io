@@ -1,6 +1,7 @@
 full_rebuild: true
 name: Mobileek
-description: Mobileek - All about mobiles and tablets
+title: Mobileek - All about mobiles and tablets
+description: Mobileek - All about mobile phones and tablets
 destination: jekyllbuild
 url: #place url
 baseurl: #place folder name if site is served in subfolder
