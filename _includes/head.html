@@ -1,7 +1,8 @@
 <meta charset="UTF-8">
-<title>{% if page.title %} {{ page.title }} {% endif%}</title>
+<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 
 {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+<meta name="description2" content="{% if page.description %}{{ page.description }}{% else %}{{ page.title }}{% endif %}" />
 
 <meta name='viewport' content='width=device-width, initial-scale=1'/>
 
