@@ -1,129 +1,100 @@
-full_rebuild: true
-name: Mobileek
-title: Mobileek - All about mobiles and tablets
-description: Mobileek - All about mobile phones and tablets
-destination: jekyllbuild
-url: #place url
-baseurl: #place folder name if site is served in subfolder
-permalink: /:title/
-paginate: 8
-paginate_path: /page/:num/
-infinite_scroll: true #change to false if you want to use pagination
-gems: [jekyll-paginate]
-tag_dir: /tag
-category_dir: /category
-author_dir: /author
-author_title_prefix: 'Posted by '
-media_folder: /media/compressed
-author_default_avatar: /profile-pic.jpg
+# ----
+# Site
 
-google_analytics_id: 'UA-74423939-1'
-#twitter_site: @SlashBoom1
-#twitter_creator: @SlashBoom1
+title: Mobileek
+url: "192.168.99.100"
+baseurl:
+google_analytics_key:
+google_maps_javascript_api_key:
+snipcart_key: 
 
-#tumblr: "#"
-#pinterest: "#"
-#instagram: "#"
-#twitter: "#"
-facebook: "https://www.facebook.com/unlockmobilesunivers/"
-#youtube: "#"
-#vimeo: "#"
-#soundcloud: "#"
+# Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
+logo: /siteicon.png
+description: Fur t-shirt store
+author:
+  name: fur
+  email: fur@example.com
+  twitter: fur # twitter username without the @ symbol
+social:
+  name: Fur Template
+  links:
+    - https://github.com/CloudCannon/fur-jekyll-template
 
-encoding: utf-8
+# -----
+# Build
+
+collections:
+  staff_members:
+    _hide_content: true
+  products:
+    _hide_content: true
+    output: true
+
+permalink: pretty
+
 defaults:
   -
     scope:
       path: ""
-      type: "posts"
+      type: "products"
     values:
-      layout: "post-classic-sidebar-right"
-      type: "standard"
-      homedisplay: "featimg"
-markdown: kramdown
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
-relative_permalinks: false
-exclude: [.git, .gitignore, sass, .sass-cache, package.json, gruntfile.js, node_modules, README.md, jekyllbuild]
+      layout: "product"
+  -
+    scope:
+      path: ""
+    values:
+      layout: "page"
+  -
+    scope:
+      path: "index.html"
+    values:
+      layout: "default"
 
-# prose.io configurations
-prose:
-  media: "img"
-  metadata:
-    _posts:
-      - name: "title"
-        field:
-          element: "text"
-          label: "title"
-      - name: "layout"
-        field:
-          element: "select"
-          label: "Layout"
-          help: "display post at full width or with sidebar"
-          options:
-            - name: "with sidebar"
-              value: "post"
-            - name: "full width"
-              value: "post-full"
-      - name: "author"
-        field:
-          element: "text"
-          label: "Author"
-          help: "author id as defined within _data/authors.yml"
-          type: "text"
-      - name: "featimg"
-        field:
-          element: "text"
-          label: "Featured Image"
-          help: "featured image within the img-folder"
-          type: "text"
-      - name: "type"
-        field:
-          element: "select"
-          label: "Post Type"
-          help: "each type has some special feature"
-          options:
-            - name: "Standard"
-              value: "standard"
-            - name: "Image"
-              value: "image"
-            - name: "Gallery"
-              value: "gallery"
-            - name: "Audio"
-              value: "audio"
-            - name: "YouTube"
-              value: "youtube"
-            - name: "Vimeo"
-              value: "vimeo"
-      - name: "homedisplay"
-        field:
-          element: "select"
-          label: "Home Display"
-          help: "decide whether to display embedded element (for post types: audio, youtube, vimeo) or Featured Image on home page"
-          options:
-            - name: "Featured Image"
-              value: "featimg"
-            - name: "Embedded Element"
-              value: "iframe"
-      - name: "vimeo-embed"
-        field:
-          element: "text"
-          label: "Vimeo Embedding Code"
-          help: "Set post type to vimeo in order for this to work"
-      - name: "gallery-id"
-        field:
-          element: "text"
-          label: "Gallery ID"
-          help: "ID of the gallery defined within _data/galleries.yml - use include in content to use"
-      - name: "audio-embed"
-        field:
-          element: "text"
-          label: "Audio Embedding Code"
-          help: "Set post type to audio in order for this to work"
-      - name: "yt-video-id"
-        field:
-          element: "text"
-          label: "YouTube Video ID"
-          help: "Set post type to youtube in order for this to work. Do not set featured image, as the youtube video thumbnail will be used"
-          type: "text"
+jekyll-archives:
+  enabled:
+    - categories
+
+gems:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  #- jekyll-github-metadata
+  #- jekyll-mentions
+  #- jekyll-redirect-from
+  #- jemoji
+  #- addressable
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENCE
+
+# -----------
+# CloudCannon
+
+garment_types:
+  - hat
+  - top
+
+social_icons:
+  - Email
+  - Facebook
+  - Google Plus
+  - Instagram
+  - LinkedIn
+  - Pinterest
+  - Tumblr
+  - Twitter
+  - YouTube
+  - RSS
+
+_comments:
+  map: Update the map location and display settings.
+  latitude: Coordinates for the center marker on the map.
+  longitude: Coordinates for the center marker on the map.
+  zoom: The zoom level for the map.
+  pricing_table: Update the information in the pricing tables.
+  highlight: Emphasis the text
+  color: The background color used in the plan name and call to action.
+  new_window: Open link in new window
+  description: This is used for facebook shares of the page and google indexing
