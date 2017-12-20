@@ -29,3 +29,19 @@ styles:
     color: '#800080'
     image: /images/products/anti-theft-backpack/purple.jpg
 ---
+
+Features:
+
+..* Secret pockets.
+..* Hidden zipper
+..* USB Charging port
+..* lluminating safety strips
+..* Water repellent fabric
+
+![](/images/products/anti-theft-backpack/capacity.jpg)
+
+![](/images/products/anti-theft-backpack/look.jpg)
+
+![](/images/products/anti-theft-backpack/stripe.jpg)
+
+![](/images/products/anti-theft-backpack/tickets.jpg)
