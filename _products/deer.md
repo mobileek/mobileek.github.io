@@ -5,7 +5,7 @@ description_markdown: >-
 
 
 
-  Slim Fit, 5oz 100% Cotton T-Shirt.
+  Slim Fit, 5oz 100% Cotton dress.
 garment_type:
 price: '19'
 sku: deer
