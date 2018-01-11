@@ -3,9 +3,10 @@ name: Anti Theft Backpack
 description_markdown: >-
   Anti Theft BackPack with USB Charging port
 
-
-
   Great for work, school, travel. Holds 15inch Laptop.
+  
+  
+  
 garment_type:
 price: '39'
 sku: anti-theft-backpack
