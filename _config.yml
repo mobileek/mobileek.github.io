@@ -1,5 +1,6 @@
 # ----
 # Site
+# Template: https://github.com/CloudCannon/fur-jekyll-template
 
 title: Mobileek
 url: "http://www.mobileek.com/"
@@ -14,9 +15,9 @@ description: Mobileek online store
 author:
   name: Mobileek
   email: crossover.ly@gmail.com
-  twitter: fur # twitter username without the @ symbol
+  twitter: # twitter username without the @ symbol
 social:
-  name: #Fur Template
+  name: 
   links:
     - #https://github.com/CloudCannon/fur-jekyll-template
 
