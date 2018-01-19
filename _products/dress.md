@@ -1,20 +1,6 @@
 ---
 name: Hermoso vestido
-description_markdown: >-
-  Use este elegante vestido y sienta que todos sus problemas flotan.
 
-
-
-  Slim Fit, 100% Cotton dress.
-garment_type:
-price: '19'
-sku: dress
-stock: 10
-sizes:
-  - Small
-  - Medium
-  - Large
-  - XL
 styles:
   - name: Black
     color: '#000000'

@@ -1,22 +1,14 @@
 ---
 name: Cartable
-description_markdown: >-
-  Leather Cartable.
 
+shopify_product_id: 206517141548
 
+shopify_product_component_id: product-component-c96558614ab	
 
-  100% Leather.
-garment_type:
-price: '9'
-sku: hog
-stock: 10
-sizes:
-  - Small
-  - Medium
-  - Large
-  - XL
 styles:
   - name: Cream
     color: '#dfd3c2'
     image: /images/products/cartable/cartable.jpg
 ---
+
+<div id='product-component-c96558614ab'></div>

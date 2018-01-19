@@ -30,8 +30,8 @@
 
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('product', {
-        id: [153055592492],
-        node: document.getElementById('product-component-0d3466713c1'),
+        id: [{{ shopify_product_id }}],
+        node: document.getElementById('{{ page.shopify_product_component_id }}'),
         moneyFormat: '%24%7B%7Bamount%7D%7D',
         options: {
   "product": {
