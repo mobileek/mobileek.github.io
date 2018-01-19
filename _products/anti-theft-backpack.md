@@ -1,6 +1,8 @@
 ---
 name: Anti Theft Backpack
 
+description_markdown: "<div id='product-component-0d3466713c1'></div>"
+
 shopify_product_id: 206517141548
 
 shopify_product_component_id: product-component-0d3466713c1	
@@ -20,4 +22,4 @@ styles:
     image: /images/products/anti-theft-backpack/purple.jpg
 ---
 
-<div id='product-component-0d3466713c1'></div>
+
