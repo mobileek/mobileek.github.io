@@ -1,6 +1,10 @@
 ---
 name: Beautiful Lamp
 
+shopify_product_id: 207777333292
+
+shopify_product_component_id: product-component-1516395880498
+
 styles:
   - name: Cream
     color: '#dfd3c2'
