@@ -5,9 +5,8 @@ layout: default
 	<section class="page">
 		<div class="container">
 			<div class="product-container">
-				{% include product-styles.html product=page %}
 
-				{{ page.description_markdown }}
+				<div id='{{ page.shopify_product_component_id }}'></div>
 
 			</div>
 		</div>
