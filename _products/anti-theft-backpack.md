@@ -1,9 +1,9 @@
 ---
 name: Anti Theft Backpack
 
-shopify_product_id: 206517141548
+shopify_product_id: 153055592492
 
-shopify_product_component_id: product-component-0d3466713c1	
+shopify_product_component_id: product-component-1516392559541
 
 styles:
   - name: Grey
