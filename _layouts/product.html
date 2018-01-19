@@ -5,10 +5,9 @@ layout: default
 	<section class="page">
 		<div class="container">
 			<div class="product-container">
+				{% include product-styles.html product=page %}
 
-				<div>
-					{{ content }}
-				</div>
+				{{ page.description_markdown }}
 
 			</div>
 		</div>
