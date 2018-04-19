@@ -10,3 +10,5 @@ styles:
     color: '#dfd3c2'
     image: /images/products/hennatazarine/hennatazarine.jpg
 ---
+
+<div>{% include /paypal-buttons/hennatazarine.html%}</div>
