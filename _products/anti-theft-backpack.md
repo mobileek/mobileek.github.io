@@ -1,6 +1,8 @@
 ---
 name: Anti Theft Backpack
 
+devise: EUR
+
 shopify_product_id: 153055592492
 
 shopify_product_component_id: product-component-1516392559541
