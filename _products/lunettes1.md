@@ -9,9 +9,9 @@ shopify_product_id:
 shopify_product_component_id: 
 
 styles:
-  - name: Lunettes du sol
+  - name: Lunettes de soleil
     color: '#dfd3c2'
-    image: /images/products/s10/s10.jpg
+    image: /images/products/lunettes/lunettes1.jpg
 ---
 
   
