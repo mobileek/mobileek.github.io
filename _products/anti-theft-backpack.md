@@ -1,6 +1,8 @@
 ---
 name: Anti Theft Backpack
 
+price: 45
+
 devise: EUR
 
 shopify_product_id: 153055592492
