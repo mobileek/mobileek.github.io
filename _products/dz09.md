@@ -19,7 +19,7 @@ styles:
     image: /images/products/dz09/white.jpg
 ---
 
-<div id='product-component-d9a9d1b9dab'></div>
+<div id='product-component-2d6cc6b6aa3'></div>
 <script type="text/javascript">
 /*<![CDATA[*/
 
@@ -53,16 +53,18 @@ styles:
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('product', {
         id: [1094525059116],
-        node: document.getElementById('product-component-d9a9d1b9dab'),
+        node: document.getElementById('product-component-2d6cc6b6aa3'),
         moneyFormat: '%E2%82%AC%7B%7Bamount_with_comma_separator%7D%7D',
         options: {
   "product": {
+    "layout": "horizontal",
     "variantId": "all",
-    "width": "240px",
+    "width": "100%",
     "contents": {
-      "imgWithCarousel": false,
+      "img": false,
+      "imgWithCarousel": true,
       "variantTitle": false,
-      "description": false,
+      "description": true,
       "buttonWithQuantity": false,
       "quantity": false
     },
@@ -71,14 +73,21 @@ styles:
     },
     "styles": {
       "product": {
+        "text-align": "left",
         "@media (min-width: 601px)": {
           "max-width": "100%",
           "margin-left": "0",
           "margin-bottom": "50px"
         }
       },
+      "title": {
+        "font-size": "26px"
+      },
+      "price": {
+        "font-size": "18px"
+      },
       "compareAt": {
-        "font-size": "12px"
+        "font-size": "15px"
       }
     }
   },
