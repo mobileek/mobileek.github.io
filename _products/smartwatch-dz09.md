@@ -24,11 +24,11 @@ Q18: https://www.youtube.com/watch?v=wl3S_Zmi9cs
 
 https://www.youtube.com/watch?v=cjWzYrJWWig
 
- its like a normal phone. but in a watch form
+ it's like a normal phone. but in a watch form
 it has call recorder?﻿
- is this rechargeable﻿
- It doesn't have a headphone jack, but you can pair a bluetooth headset to it.
- micro sim ?? can you use the one out of your phone﻿
+Rechargeable﻿
+It doesn't have a headphone jack, but you can pair a bluetooth headset to it.
+micro sim ?? can you use the one out of your phone﻿
 Can you send sms text messages!? Can you reply to text!? Can you set up quick responses for texts!?﻿
 
 I bought this for work so I don't have to keep pulling my phone out my pocket. I only need the bluetooth notifications feature, texting and some time answer or make calls (through my phone). The other features I can really do without﻿
