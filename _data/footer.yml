@@ -1,28 +1,8 @@
 - title: General
   links:
-    - name: Products
+    - name: Productos
       link: /
-    - name: Our Story
-      link: /about/
-    - name: Contact
-      link: /contact/
-- title: Help
+- title: Ayuda
   links:
-    - name: Shipping
+    - name: Envío
       link: /shipping/
-    - name: Returns
-      link: /returns/
-- title: Social
-  links:
-    - name: Mobileek
-      link: 'https://www.facebook.com/'
-      new_window: true
-      social_icon: Facebook
-    - name: Mobileek
-      link: 'https://www.instagram.com/'
-      new_window: true
-      social_icon: Instagram
-    - name: "@Mobileek"
-      link: 'https://www.twitter.com'
-      new_window: true
-      social_icon: Twitter
