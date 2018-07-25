@@ -6,7 +6,7 @@ source: "theviralgadgets.com/products/1080p-wifi-dvr-dash-cam es.aliexpress.com/
 ---
 
 ## Full HD 1080p WiFi coche DVR Dash Cam 170 grados registrator vídeo grabadora
-
+<div>
 <div id='product-component-5fa21283fb5'></div>
 <script type="text/javascript">
 /*<![CDATA[*/
@@ -225,9 +225,10 @@ source: "theviralgadgets.com/products/1080p-wifi-dvr-dash-cam es.aliexpress.com/
 })();
 /*]]>*/
 </script>
+</div>
 
 <div>
-<h2>Especificaciones</h2>:
+<h3>Especificaciones</h3>:
 <ul>
 <li>Color: Negro</li>
 <li>Tamaño: aprox. 158x76mm/6,22x2,99"</li>
@@ -267,5 +268,9 @@ source: "theviralgadgets.com/products/1080p-wifi-dvr-dash-cam es.aliexpress.com/
 <li>1 x Cable USB</li>
 <li>1 x Manual del usuario chino</li>
 <li>Manual del usuario 1 x Manual del usuario</li>
+
+  <div>
+  <img src="https://ae01.alicdn.com/kf/HTB1V8gzQFXXXXbVXVXXq6xXFXXXc/224699384/HTB1V8gzQFXXXXbVXVXXq6xXFXXXc.jpg">  
+  </div>
 
 </div>
