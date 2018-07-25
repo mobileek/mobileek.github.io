@@ -1,6 +1,6 @@
 ---
-title: Awesome products for awesome people
-hero: AWESOME PRODUCTS FOR AWESOME PEOPLE
+title: Mobileek - Tienda en línea
+hero: PRODUCTOS IMPRESIONANTES PARA PERSONAS INCREÍBLES
 ---
 
 <div class="content" id="products">
@@ -10,9 +10,12 @@ hero: AWESOME PRODUCTS FOR AWESOME PEOPLE
 			<ul class="product-list">
 				{% for product in site.products %}
 					<li>
-						{% include product-styles.html product=product %}
+						<a href="{{ product.url }}">
+							<img src="{{ product.image }}">
+						</a>
 						<div class="product-details">
 							<h4><a href="{{ product.url }}">{{ product.name }}</a></h4>
+							<div>{{ product.price }}</div>
 						</div>
 					</li>
 				{% endfor %}

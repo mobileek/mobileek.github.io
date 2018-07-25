@@ -1,10 +1,11 @@
 ---
-name: Reloj inteligente DZ09
+name: Minimalista cartera de fibra de carbono RFID bloqueo por tarjetas de crédito
 price: €19,99
-image: "/images/products/dz09/gold.jpg"
+image: /images/products/minimalista-cartera-de-fibra-de-carbono.jpg
+source: es.aliexpress.com/store/product/2017-new-design-minimalist-wallet-with-coin-slot-rfid-blocking-credit-card-holder-for-women-and/1113962_32829701763.html
 ---
 
-<div id='product-component-8c51b00563b'></div>
+<div id='product-component-e5d688fc157'></div>
 <script type="text/javascript">
 /*<![CDATA[*/
 
@@ -37,8 +38,8 @@ image: "/images/products/dz09/gold.jpg"
 
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('product', {
-        id: [1094525059116],
-        node: document.getElementById('product-component-8c51b00563b'),
+        id: [1099425972268],
+        node: document.getElementById('product-component-e5d688fc157'),
         moneyFormat: '%E2%82%AC%7B%7Bamount_with_comma_separator%7D%7D',
         options: {
   "product": {
@@ -89,6 +90,12 @@ image: "/images/products/dz09/gold.jpg"
     "contents": {
       "button": true
     },
+    "text": {
+      "title": " Tu Cesta",
+      "notice": "El envío se agrega al momento del pago.",
+      "button": "Comprar ahora",
+      "empty": "Tu Cesta está vacía."
+    },
     "styles": {
       "button": {
         "background-color": "#f5705c",
@@ -101,6 +108,33 @@ image: "/images/products/dz09/gold.jpg"
       },
       "footer": {
         "background-color": "#ffffff"
+      },
+      "header": {
+        "color": "#4c4c4c"
+      },
+      "lineItems": {
+        "color": "#4c4c4c"
+      },
+      "subtotalText": {
+        "color": "#4c4c4c"
+      },
+      "subtotal": {
+        "color": "#4c4c4c"
+      },
+      "notice": {
+        "color": "#4c4c4c"
+      },
+      "currency": {
+        "color": "#4c4c4c"
+      },
+      "close": {
+        ":hover": {
+          "color": "#4c4c4c"
+        },
+        "color": "#4c4c4c"
+      },
+      "emptyCart": {
+        "color": "#4c4c4c"
       }
     }
   },
@@ -151,6 +185,34 @@ image: "/images/products/dz09/gold.jpg"
         "@media (min-width: 601px)": {
           "margin-left": "-20px"
         }
+      }
+    }
+  },
+  "lineItem": {
+    "styles": {
+      "variantTitle": {
+        "color": "#4c4c4c"
+      },
+      "title": {
+        "color": "#4c4c4c"
+      },
+      "price": {
+        "color": "#4c4c4c"
+      },
+      "quantity": {
+        "color": "#4c4c4c"
+      },
+      "quantityIncrement": {
+        "color": "#4c4c4c",
+        "border-color": "#4c4c4c"
+      },
+      "quantityDecrement": {
+        "color": "#4c4c4c",
+        "border-color": "#4c4c4c"
+      },
+      "quantityInput": {
+        "color": "#4c4c4c",
+        "border-color": "#4c4c4c"
       }
     }
   }

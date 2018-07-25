@@ -2,6 +2,9 @@
   links:
     - name: Productos
       link: /
+    - name: Política de Privacidad
+      link: /privacy-policy/
+    
 - title: Ayuda
   links:
     - name: Envío
