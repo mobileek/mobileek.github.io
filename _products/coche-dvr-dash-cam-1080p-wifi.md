@@ -227,43 +227,45 @@ source: "theviralgadgets.com/products/1080p-wifi-dvr-dash-cam es.aliexpress.com/
 </script>
 
 <div>
-## Especificaciones:
-  * Color: Negro
-  * Tamaño: aprox. 158x76mm/6,22x2,99"
-  * Cámara: 170A + grado de alta resolución ultra-angular lente (lente frontal)
-  * Posición de la cámara: se puede ajustar, como arriba, abajo, izquierda o derecha
-  * Tecnología estabilizador de imagen: soporte
-  * Resolución de vídeo: Lente integrada: 1920x1080, 1280x720, 640x480. Lente externa de píxeles: 1280x720 píxeles (máximo)
-  * Conexión inalámbrica: con WiFi
-  * Vídeo en bucle continuo: soporte
-Formato de fotografías: JPEG
-Efecto de Color: estándar
-Función de detección de movimiento: soporte
-Fecha: Apoyo
-Modo de Fotografía: 1200 millones
-Tarjeta de memoria: TF (máximo apoyo 64 GB)
-Micrófono: Apoyo
-Sonido: soporte
-Visión Nocturna: Apoyo
-Entrada de vídeo: Apoyo
-Formato de vídeo: AVI
-Frecuencia de corriente: 50Hz/60Hz
-Interfaz de potencia: 5 V/1A
-Batería: BL-5C 200mA
-WiFi: Soporte de imágenes en tiempo real, puede utilizar el teléfono para mirar a través de los archivos en la tarjeta SD a través de WiFi. Soporte descargar los archivos de imagen. Soporte de control de soporte o menú Configurar por teléfono
-Grabación de noche Ultra baja ligera o oscura mejorada
-Función de detección de movimiento de soporte puede ser realizado robo de coche y la colección de pruebas, Sensor de detección de colisión G-sensor incorporado
-170-Grado super gran angular cámara para evitar la zona muerta
-Grabar las cosas interesantes y hermosos paisajes en su viaje
-Grabación de alta velocidad, soporte de tiempo real y fecha de visualización en vídeo
-Instalar la aplicación en el teléfono móvil: Asegúrese de utilizar la cámara de doble lente, luego en cada mercado de aplicaciones para buscar "WCVR-Dual", descargue e instale la aplicación. Si utiliza la Cámara de la lente única, por favor busque "WCVR-PWD" para descargar e instalar
-Nota: Cuando encienda la función WiFi, asegúrese de insertar la tarjeta SD. Por favor use 8 GB Clase 10 tarjeta o superior. (De lo contrario, debe afectar la tasa de transmisión WiFi)
+<h2>Especificaciones</h2>:
+<ul>
+<li>Color: Negro</li>
+<li>Tamaño: aprox. 158x76mm/6,22x2,99"</li>
+<li>Cámara: 170A + grado de alta resolución ultra-angular lente (lente frontal)</li>
+<li>Posición de la cámara: se puede ajustar, como arriba, abajo, izquierda o derecha</li>
+<li>Tecnología estabilizador de imagen: soporte</li>
+<li>Resolución de vídeo: Lente integrada: 1920x1080, 1280x720, 640x480. Lente externa de píxeles: 1280x720 píxeles (máximo)</li>
+<li>Conexión inalámbrica: con WiFi</li>
+<li>Vídeo en bucle continuo: soporte</li>
+<li>Formato de fotografías: JPEG</li>
+<li>Efecto de Color: estándar</li>
+<li>Función de detección de movimiento: soporte</li>
+<li>Fecha: Apoyo</li>
+<li>Modo de Fotografía: 1200 millones</li>
+<li>Tarjeta de memoria: TF (máximo apoyo 64 GB)</li>
+<li>Micrófono: Apoyo</li>
+<li>Sonido: soporte</li>
+<li>Visión Nocturna: Apoyo</li>
+<li>Entrada de vídeo: Apoyo</li>
+<li>Formato de vídeo: AVI</li>
+<li>Frecuencia de corriente: 50Hz/60Hz</li>
+<li>Interfaz de potencia: 5 V/1A</li>
+<li>Batería: BL-5C 200mA</li>
+<li>WiFi: Soporte de imágenes en tiempo real, puede utilizar el teléfono para mirar a través de los archivos en la tarjeta SD a través de WiFi. Soporte descargar los archivos de imagen. Soporte de control de soporte o menú Configurar por teléfono</li>
+<li>Grabación de noche Ultra baja ligera o oscura mejorada</li>
+<li>Función de detección de movimiento de soporte puede ser realizado robo de coche y la colección de pruebas, Sensor de detección de colisión G-sensor incorporado</li>
+<li>170-Grado super gran angular cámara para evitar la zona muerta</li>
+<li>Grabar las cosas interesantes y hermosos paisajes en su viaje</li>
+<li>Grabación de alta velocidad, soporte de tiempo real y fecha de visualización en vídeo</li>
+<li>Instalar la aplicación en el teléfono móvil: Asegúrese de utilizar la cámara de doble lente, luego en cada mercado de aplicaciones para buscar "WCVR-Dual", descargue e instale la aplicación. Si utiliza la Cámara de la lente única, por favor busque "WCVR-PWD" para descargar e instalar</li>
+</ul>
 
-El paquete incluye:
-  * 1 x HD WiFi coche oculto DVR
-  * 1 x cargador de coche
-  * 1 x Cable USB
-  * 1 x Manual del usuario chino
-  * Manual del usuario 1 x Manual del usuario
+
+<h2>El paquete incluye:</h2>
+<li>1 x HD WiFi coche oculto DVR</li>
+<li>1 x cargador de coche</li>
+<li>1 x Cable USB</li>
+<li>1 x Manual del usuario chino</li>
+<li>Manual del usuario 1 x Manual del usuario</li>
 
 </div>
