@@ -5,7 +5,6 @@ image: /images/products/coche-dvr-dash-cam-1080p-wifi.jpg
 source: "theviralgadgets.com/products/1080p-wifi-dvr-dash-cam es.aliexpress.com/store/product/Novatek-Full-HD-1080P-WIFI-Car-DVR-Dash-Cam-Night-Vision-Car-Camera-Night-Vision-Decor/1833125_32806964542.html"
 ---
 
-## Full HD 1080p WiFi coche DVR Dash Cam 170 grados registrator vídeo grabadora
 <div>
 <div id='product-component-5fa21283fb5'></div>
 <script type="text/javascript">
@@ -228,6 +227,7 @@ source: "theviralgadgets.com/products/1080p-wifi-dvr-dash-cam es.aliexpress.com/
 </div>
 
 <div>
+<h3>Full HD 1080p WiFi coche DVR Dash Cam 170 grados registrator vídeo grabadora</h3>
 <h3>Especificaciones</h3>:
 <ul>
 <li>Color: Negro</li>
@@ -262,7 +262,7 @@ source: "theviralgadgets.com/products/1080p-wifi-dvr-dash-cam es.aliexpress.com/
 </ul>
 
 
-<h2>El paquete incluye:</h2>
+<h3>El paquete incluye:</h3>
 <li>1 x HD WiFi coche oculto DVR</li>
 <li>1 x cargador de coche</li>
 <li>1 x Cable USB</li>
