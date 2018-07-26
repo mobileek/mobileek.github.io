@@ -225,29 +225,31 @@ image: "/images/mini-bluetooth-auriculares.jpg"
 
 
 
-Mini auriculares Bluetooth w/manos libres MP3 reproductor inalámbrico estéreo auriculares soporte TF/SD tarjeta FM diadema auriculares
+
+
+Mini auriculares Bluetooth w/manos libres MP3 reproductor inalámbrico estéreo auriculares soporte TF/SD tarjeta FM diadema auriculares  
 Mini 503 auriculares deportivos Bluetooth viene con un diseño mejorado a prueba de sudor, perfecto para correr, correr, ciclismo, etc además, cuenta con cojín suave oído-almohadillas, diadema de diseño ergonómico, Y el diseño ligero hace que sea cómodo durante mucho tiempo.
 
-**Especificaciones**
+**Especificaciones**  
 Compatible con: dispositivo Bluetooth  
-Tarjetas compatibles: TF/micro SD
-Función de Radio: FM
-Archivos compatibles: MP3, WMA
-Sistemas compatibles: Windows98/2000/XP
-Interfaz USB: USB de alta velocidad USB 2,0
-Fuente de alimentación de carga: USB Puerto DC 5 V; DC 5C (500mA) cargador de viaje; cargador de coche DC 5 V (500mA)
-Batería: DC 3,7 V
-Tiempo de trabajo continuo: alrededor de 5 horas
-Tiempo de carga: alrededor de 2-3 horas
-Respuesta de frecuencia: 20Hz-20 kHz
-Relación Señal ruido:> 85db
-Color: Negro/plata/oro/Blanco/rojo/azul
+Tarjetas compatibles: TF/micro SD  
+Función de Radio: FM  
+Archivos compatibles: MP3, WMA  
+Sistemas compatibles: Windows98/2000/XP  
+Interfaz USB: USB de alta velocidad USB 2,0  
+Fuente de alimentación de carga: USB Puerto DC 5 V; DC 5C (500mA) cargador de viaje; cargador de coche DC 5 V (500mA)  
+Batería: DC 3,7 V  
+Tiempo de trabajo continuo: alrededor de 5 horas  
+Tiempo de carga: alrededor de 2-3 horas  
+Respuesta de frecuencia: 20Hz-20 kHz  
+Relación Señal ruido:> 85db  
+Color: Negro/plata/oro/Blanco/rojo/azul  
 
-Características
-Mejor Diseño a prueba de sudor, perfecto para correr, correr, ciclismo, etc.
-Cómodo usando: cojín suave oído-almohadillas, diadema de diseño ergonómico, Y el diseño ligero hace que sea cómodo durante mucho tiempo.
-Ajustable plegable diadema transpirable para comodidad, seguro, fácil y conveniente usar.
-Bajo consumo de energía y soporte manos libres.
+Características  
+Mejor Diseño a prueba de sudor, perfecto para correr, correr, ciclismo, etc.  
+Cómodo usando: cojín suave oído-almohadillas, diadema de diseño ergonómico, Y el diseño ligero hace que sea cómodo durante mucho tiempo.  
+Ajustable plegable diadema transpirable para comodidad, seguro, fácil y conveniente usar.  
+Bajo consumo de energía y soporte manos libres.  
 
-Lista de embalaje
-1 x Mini 503 Auriculares auriculares Bluetooth
+Lista de embalaje  
+1 x Mini 503 Auriculares auriculares Bluetooth  
