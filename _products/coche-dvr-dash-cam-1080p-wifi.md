@@ -263,14 +263,15 @@ source: "theviralgadgets.com/products/1080p-wifi-dvr-dash-cam es.aliexpress.com/
 
 
 <h3>El paquete incluye:</h3>
-<li>1 x HD WiFi coche oculto DVR</li>
-<li>1 x cargador de coche</li>
-<li>1 x Cable USB</li>
-<li>1 x Manual del usuario chino</li>
-<li>Manual del usuario 1 x Manual del usuario</li>
+<ul>
+  <li>1 x HD WiFi coche oculto DVR</li>
+  <li>1 x cargador de coche</li>
+  <li>1 x Cable USB</li>
+  <li>1 x Manual del usuario chino</li>
+  <li>Manual del usuario 1 x Manual del usuario</li>
+</ul>
 
-  <div>
+<div>
   <img src="https://ae01.alicdn.com/kf/HTB1V8gzQFXXXXbVXVXXq6xXFXXXc/224699384/HTB1V8gzQFXXXXbVXVXXq6xXFXXXc.jpg">  
   </div>
-
 </div>
