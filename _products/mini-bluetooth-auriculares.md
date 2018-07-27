@@ -1,7 +1,7 @@
 ---
 name: Mini Bluetooth Auriculares
 price: €19,99
-image: "https://cdn.shopify.com/s/files/1/2664/5744/products/mini-bluetooth-auriculares_1000x1500.jpg?v=1532628349"
+image: "/images/mini-bluetooth-auriculares.jpg"
 ---
 
 <div id='product-component-8e7d11f6f3f'></div>
