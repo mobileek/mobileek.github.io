@@ -1,7 +1,7 @@
 ---
 name: Mop Broom Holder
-price: €
-image: "/images/360-degree-Wireless-IP-Camera-Bulb-Light-FishEye-Camera.jpg"
+price: 18,99€
+image: "/images/Escoba-Mop-titular-de-la-cocina-organizador-de-pared-5-posiciones.jpg"
 ---
 
 <div id='product-component-e4f7c9e785b'></div>
