@@ -225,14 +225,24 @@ image: "/images/Headband-Headset-Bluetooth-Headphone.jpg"
 
 Product Description  
 
-Knitting Music Headband Headset w/ Mic Wireless Bluetooth Earphone Headphone For Running Yoga Gym Sleep Sports Earpiece
+Knitting Music Headband Headset w/ Mic Wireless Bluetooth Earphone Headphone For Running Yoga Gym Sleep Sports Earpiece    
 
-Introduction:
+
+This can allows you to listen to your music without having to wear additional headphones, and protect you from being disturbed by your messy hair and sweat.
+Built-in microphone to not miss any callings.
+Perfectly absorb all sweat during sports activities like yoga, running, jogging, etc.
+One size fits most and the Bluetooth headband is fully washable after removing the Bluetooth module from the back hole.
+Material: Knitted
+Product Size: 19.5 x 7.5 cm.
+Product weight: 67 g.
+Note: Please allow 2 - 4 weeks to be delivered.  
+
+Introduction:  
 
 This headband is used in the sport, running, yoga, but fixed hair can listen to music on the phone again, from the entanglement of cables.
 Fabric has good air permeability, absorb sweat, especially suitable for people in sports, fitness, leisure use.
  
-Features:
+Features:  
 
 100% brand new and high quality.
 Knitted material, Sports music essential.
@@ -259,5 +269,4 @@ Package Content:
 1 x Instruction Manual
 1 x Charging Cable
 
-Item specifics  
-Brand Name:vapeonlyWith Microphone:YesPlug Type:WirelessSensitivity:95dBResistance:32ΩFunction:For Mobile Phone,Sport,Common HeadphoneWireless Type:BluetoothModel Number:WirelessSupport Apt-x:NoConnectors:NoneWaterproof:NoCommunication:WirelessSupport Memory Card:NoVolume Control:YesControl Button:NoActive Noise-Cancellation:NoIs wireless:YesSupport APP:YesVocalism Principle:DynamicStyle:HeadphoneFrequency Response Range:20-2000HzLine Length:0Bluetooth Version: :4.1Channel: :StereoMaterial: :KnittedColor: :Black, Dark Gray, Light GrayProduct Size: :19.5 x 7.5cmProduct Weight: :67gCharging time::2HRSContinuous working time::about 3.5Hrs
+
