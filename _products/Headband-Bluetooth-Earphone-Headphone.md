@@ -1,10 +1,10 @@
 ---
-name: Mop Broom Holder
-price: 18,99€
-image: "/images/Escoba-Mop-titular-de-la-cocina-organizador-de-pared-5-posiciones.jpg"
+name: Headband-Bluetooth-Earphone-Headphone
+price: 19,00    
+image: "/images/Headband-Headset-Bluetooth-Headphone.jpg"
 ---
 
-<div id='product-component-e4f7c9e785b'></div>
+<div id='product-component-8c51b00563b'></div>
 <script type="text/javascript">
 /*<![CDATA[*/
 
@@ -37,8 +37,8 @@ image: "/images/Escoba-Mop-titular-de-la-cocina-organizador-de-pared-5-posicione
 
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('product', {
-        id: [1104514154540],
-        node: document.getElementById('product-component-e4f7c9e785b'),
+        id: [1094525059116],
+        node: document.getElementById('product-component-8c51b00563b'),
         moneyFormat: '%E2%82%AC%7B%7Bamount_with_comma_separator%7D%7D',
         options: {
   "product": {
@@ -89,12 +89,6 @@ image: "/images/Escoba-Mop-titular-de-la-cocina-organizador-de-pared-5-posicione
     "contents": {
       "button": true
     },
-    "text": {
-      "title": " Tu Cesta",
-      "notice": "El envío se agrega al momento del pago.",
-      "button": "Comprar ahora",
-      "empty": "Tu Cesta está vacía."
-    },
     "styles": {
       "button": {
         "background-color": "#f5705c",
@@ -107,33 +101,6 @@ image: "/images/Escoba-Mop-titular-de-la-cocina-organizador-de-pared-5-posicione
       },
       "footer": {
         "background-color": "#ffffff"
-      },
-      "header": {
-        "color": "#4c4c4c"
-      },
-      "lineItems": {
-        "color": "#4c4c4c"
-      },
-      "subtotalText": {
-        "color": "#4c4c4c"
-      },
-      "subtotal": {
-        "color": "#4c4c4c"
-      },
-      "notice": {
-        "color": "#4c4c4c"
-      },
-      "currency": {
-        "color": "#4c4c4c"
-      },
-      "close": {
-        ":hover": {
-          "color": "#4c4c4c"
-        },
-        "color": "#4c4c4c"
-      },
-      "emptyCart": {
-        "color": "#4c4c4c"
       }
     }
   },
@@ -186,34 +153,6 @@ image: "/images/Escoba-Mop-titular-de-la-cocina-organizador-de-pared-5-posicione
         }
       }
     }
-  },
-  "lineItem": {
-    "styles": {
-      "variantTitle": {
-        "color": "#4c4c4c"
-      },
-      "title": {
-        "color": "#4c4c4c"
-      },
-      "price": {
-        "color": "#4c4c4c"
-      },
-      "quantity": {
-        "color": "#4c4c4c"
-      },
-      "quantityIncrement": {
-        "color": "#4c4c4c",
-        "border-color": "#4c4c4c"
-      },
-      "quantityDecrement": {
-        "color": "#4c4c4c",
-        "border-color": "#4c4c4c"
-      },
-      "quantityInput": {
-        "color": "#4c4c4c",
-        "border-color": "#4c4c4c"
-      }
-    }
   }
 }
       });
@@ -223,15 +162,36 @@ image: "/images/Escoba-Mop-titular-de-la-cocina-organizador-de-pared-5-posicione
 /*]]>*/
 </script>
 
+Knitting Music Headband Headset w/ Mic Wireless Bluetooth Earphone Headphone For Running Yoga Gym Sleep Sports Earpiece
 
-Las ranuras se ajustan automáticamente para adaptarse a cualquier tamaño de mango, con función de liberación para una extracción sin esfuerzo.
-Con ganchos retráctiles para colgar cosas más ligeras, como trapos de limpieza, cepillos.
-Ahorro de espacio, libera espacio en el piso: perfecto para la cocina, el armario, el cuarto de servicio, la oficina, etc.
-Fácil de instalar: montado en la pared, viene con tornillos de instalación, rápido y fácil de instalar.
-  Nota :  el envio puede tardar de 12 a 25 días.Gracias por confiar en nosotros.
+Introduction:
 
-  Especificaciones del artículo
-  
-Tipo:Soportes y Bastidores de almacenamientoNúmero de modelo:5 Position Mop Broom Holder ToolNúmero de Niveles:IndividualCaracterística:Disponible en stock,EcológicoEspacio apropiado:CocinaMaterial:PlásticoClasificación:Estante no plegableTipo de instalación:Pared Tipo MontadaTipo de plástico:ABSUso:Broom HolderType:Kitchen OrganizerApplication:Kitchen Storage
+This headband is used in the sport, running, yoga, but fixed hair can listen to music on the phone again, from the entanglement of cables.
+Fabric has good air permeability, absorb sweat, especially suitable for people in sports, fitness, leisure use.
+ 
+Features:
 
-Peso del paquete: 0.5kg (1.10lb.) Dimensiones del paquete: 45cm x 12cm x 14cm 
+100% brand new and high quality.
+Knitted material, Sports music essential.
+Set-in MIC, available for cell phone to transmit the speaking phone to your audio devices directly so that the user can hand free answering
+Set-in Li-ion chargeable battery, charge via USB Cable, long stand-by time.
+4.1 Bluetooth version,available for most of devices with bluetooth
+ 
+Specification:
+Bluetooth Version: 4.1
+Channel: Stereo
+Material: Knitted
+Color: Black, Dark Gray, Light Gray
+Product Size: 19.5 x 7.5cm
+Product Weight: 67g
+Transmission distance: 10M or so
+Charging time:2HRS
+Standby time: 24 Hrs or so
+Continuous working time:about 3.5Hrs
+Size: Fits for head circumference 56-62cm
+Li-ion Battery:3.7V/100mA
+ 
+Package Content: 
+1 x CALION Bluetooth 4.1 Earphone Handband 
+1 x Instruction Manual
+1 x Charging Cable
