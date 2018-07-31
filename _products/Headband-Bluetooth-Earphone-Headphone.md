@@ -1,6 +1,6 @@
 ---
 name: Headband-Bluetooth-Earphone-Headphone
-price: 19,00    
+price: €19,00    
 image: "/images/Headband-Headset-Bluetooth-Headphone.jpg"
 ---
 
@@ -223,7 +223,7 @@ image: "/images/Headband-Headset-Bluetooth-Headphone.jpg"
 /*]]>*/
 </script>
 
-
+Product Description
 
 Knitting Music Headband Headset w/ Mic Wireless Bluetooth Earphone Headphone For Running Yoga Gym Sleep Sports Earpiece
 
@@ -258,3 +258,6 @@ Package Content:
 1 x CALION Bluetooth 4.1 Earphone Handband 
 1 x Instruction Manual
 1 x Charging Cable
+
+Item specifics
+Brand Name:vapeonlyWith Microphone:YesPlug Type:WirelessSensitivity:95dBResistance:32ΩFunction:For Mobile Phone,Sport,Common HeadphoneWireless Type:BluetoothModel Number:WirelessSupport Apt-x:NoConnectors:NoneWaterproof:NoCommunication:WirelessSupport Memory Card:NoVolume Control:YesControl Button:NoActive Noise-Cancellation:NoIs wireless:YesSupport APP:YesVocalism Principle:DynamicStyle:HeadphoneFrequency Response Range:20-2000HzLine Length:0Bluetooth Version: :4.1Channel: :StereoMaterial: :KnittedColor: :Black, Dark Gray, Light GrayProduct Size: :19.5 x 7.5cmProduct Weight: :67gCharging time::2HRSContinuous working time::about 3.5Hrs
