@@ -5,7 +5,7 @@ image: "images\image03-08-18/pintalabios-marroquies-lipstick.jpg"
 ---
 
 
-<div id='product-component-cf0f038c1d0'></div>
+<div id='product-component-debef4720b3'></div>
 <script type="text/javascript">
 /*<![CDATA[*/
 
@@ -39,7 +39,7 @@ image: "images\image03-08-18/pintalabios-marroquies-lipstick.jpg"
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('product', {
         id: [1121918517292],
-        node: document.getElementById('product-component-cf0f038c1d0'),
+        node: document.getElementById('product-component-debef4720b3'),
         moneyFormat: '%E2%82%AC%7B%7Bamount_with_comma_separator%7D%7D',
         options: {
   "product": {
