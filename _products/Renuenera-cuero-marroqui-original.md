@@ -1,10 +1,10 @@
 ---
-name: Reloj inteligente DZ09
-price: €19,99
-image: "/images/products/dz09/gold.jpg"
+name: Renuenera cuero marroqui original
+price: €12,00
+image: "/images/products/products\renuenera-cuero/renuenera.jpg"
 ---
 
-<div id='product-component-8c51b00563b'></div>
+<div id='product-component-5ad8ca5d263'></div>
 <script type="text/javascript">
 /*<![CDATA[*/
 
@@ -37,8 +37,8 @@ image: "/images/products/dz09/gold.jpg"
 
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('product', {
-        id: [1094525059116],
-        node: document.getElementById('product-component-8c51b00563b'),
+        id: [1123463790636],
+        node: document.getElementById('product-component-5ad8ca5d263'),
         moneyFormat: '%E2%82%AC%7B%7Bamount_with_comma_separator%7D%7D',
         options: {
   "product": {
@@ -89,6 +89,12 @@ image: "/images/products/dz09/gold.jpg"
     "contents": {
       "button": true
     },
+    "text": {
+      "title": " Tu Cesta",
+      "notice": "El envío se agrega al momento del pago.",
+      "button": "Comprar ahora",
+      "empty": "Tu Cesta está vacía."
+    },
     "styles": {
       "button": {
         "background-color": "#f5705c",
@@ -101,6 +107,33 @@ image: "/images/products/dz09/gold.jpg"
       },
       "footer": {
         "background-color": "#ffffff"
+      },
+      "header": {
+        "color": "#4c4c4c"
+      },
+      "lineItems": {
+        "color": "#4c4c4c"
+      },
+      "subtotalText": {
+        "color": "#4c4c4c"
+      },
+      "subtotal": {
+        "color": "#4c4c4c"
+      },
+      "notice": {
+        "color": "#4c4c4c"
+      },
+      "currency": {
+        "color": "#4c4c4c"
+      },
+      "close": {
+        ":hover": {
+          "color": "#4c4c4c"
+        },
+        "color": "#4c4c4c"
+      },
+      "emptyCart": {
+        "color": "#4c4c4c"
       }
     }
   },
@@ -153,6 +186,34 @@ image: "/images/products/dz09/gold.jpg"
         }
       }
     }
+  },
+  "lineItem": {
+    "styles": {
+      "variantTitle": {
+        "color": "#4c4c4c"
+      },
+      "title": {
+        "color": "#4c4c4c"
+      },
+      "price": {
+        "color": "#4c4c4c"
+      },
+      "quantity": {
+        "color": "#4c4c4c"
+      },
+      "quantityIncrement": {
+        "color": "#4c4c4c",
+        "border-color": "#4c4c4c"
+      },
+      "quantityDecrement": {
+        "color": "#4c4c4c",
+        "border-color": "#4c4c4c"
+      },
+      "quantityInput": {
+        "color": "#4c4c4c",
+        "border-color": "#4c4c4c"
+      }
+    }
   }
 }
       });
@@ -161,3 +222,5 @@ image: "/images/products/dz09/gold.jpg"
 })();
 /*]]>*/
 </script>
+
+Renuenera de cuero Marroqui original de buena calidad.
