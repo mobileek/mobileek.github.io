@@ -1,6 +1,6 @@
 ---
 name: Renuenera cuero natural marroqui original tradicional
-price: €12,00    
+price: €12,99    
 image: "/images/renuenera-negro.jpg"
 ---
 
