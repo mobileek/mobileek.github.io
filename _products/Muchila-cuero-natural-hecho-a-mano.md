@@ -4,7 +4,7 @@ price: €10,99
 image: "/images/products/muchilas-cuero/muchila-grande-marron.jpg"
 ---
 
-<div id='product-component-e85081490b0'></div>
+<div id='product-component-96bc8187d30'></div>
 <script type="text/javascript">
 /*<![CDATA[*/
 
@@ -38,7 +38,7 @@ image: "/images/products/muchilas-cuero/muchila-grande-marron.jpg"
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('product', {
         id: [1124407476268],
-        node: document.getElementById('product-component-e85081490b0'),
+        node: document.getElementById('product-component-96bc8187d30'),
         moneyFormat: '%E2%82%AC%7B%7Bamount_with_comma_separator%7D%7D',
         options: {
   "product": {
