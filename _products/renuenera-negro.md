@@ -1,10 +1,10 @@
 ---
-name: Renuenera cuero marroqui original
-price: €12,00
-image: "/images/products/products\renuenera-cuero/renuenera.jpg"
+name: Optical Gaming Mouse 3000DPI 2 Button Black
+price: €10,99
+image: "/images/img-31-07/Optical-Gaming-Mouse-USB-Gamer-Pro.jpg"
 ---
 
-<div id='product-component-5ad8ca5d263'></div>
+<div id='product-component-eca5a7d0e34'></div>
 <script type="text/javascript">
 /*<![CDATA[*/
 
@@ -37,8 +37,8 @@ image: "/images/products/products\renuenera-cuero/renuenera.jpg"
 
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('product', {
-        id: [1123463790636],
-        node: document.getElementById('product-component-5ad8ca5d263'),
+        id: [1115660189740],
+        node: document.getElementById('product-component-eca5a7d0e34'),
         moneyFormat: '%E2%82%AC%7B%7Bamount_with_comma_separator%7D%7D',
         options: {
   "product": {
@@ -224,4 +224,29 @@ image: "/images/products/products\renuenera-cuero/renuenera.jpg"
 </script>
 
 
-Renuenera cuero natural marroqui original tradicional , todo echo a mano y natural, sin ñadir productos quimicos.
+
+
+Features:  
+
+100% brand new and high quality, Compact Design.
+Optical technology works on most surfaces.
+3D game optical mouse
+2000-3000DPI perfect combination, positioning accuracy
+The human engineering designing. relax in long time use.
+Fast speed , 500Hz fps design
+Super sensitive with golden USB connector.
+Ergonomically designed, long-term use without fatigue.
+Intelligent connectivity, no need to code, plug & play.
+Switch Life: 5 million cycle.
+Roller direction: four-way scroll wheel
+Compatible with Windows XP, Vista, Windows 7, ME, 2000 and Mac OS...or latest.
+User for: The high-end players, gaming professional players.
+Size: 11.6cm x 7.1cm x 3.7cm - 4.57inch x 2.80inch x 1.46inch
+Package Included:  
+
+1 x USB Gaming Mouse Wired
+NO Retail Box. Packed Safely in Bubble Bag.
+
+Unit Type: piece Package Weight: 0.099kg (0.22lb.) Package Size: 15cm x 8cm x 5cm (5.91in x 3.15in x 1.97in)  
+
+Brand Name:BuyinCoinsModel Number:USB Gaming Mouse WiredHand Orientation:Both HandsType:WiredPackage:NoDPI:3000Operation Mode:TrackballTime to market:Apr-14Style:Finger,MiniGross Weight:75gNumber of Buttons:2Interface Type:USBNumber of Rollers:1Power Type:BatteryOptical Resolution:3000 DPIApplication:Desktop, LaptopWireless Technology:SupportedWi-Fi Range:10mTracking Method:OpticalProducts Status:Stock

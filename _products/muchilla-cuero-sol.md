@@ -1,10 +1,10 @@
 ---
-name: Muchila cuero marroqui original.
+name: Muchila cuero marroqui original
 price: €45,00
 image: "/images/products/muchila-cuero.jpg"
 ---
 
-<div id='product-component-a2b99a151ca'></div>
+<div id='product-component-3219f512da6'></div>
 <script type="text/javascript">
 /*<![CDATA[*/
 
@@ -38,7 +38,7 @@ image: "/images/products/muchila-cuero.jpg"
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('product', {
         id: [1123557605420],
-        node: document.getElementById('product-component-a2b99a151ca'),
+        node: document.getElementById('product-component-3219f512da6'),
         moneyFormat: '%E2%82%AC%7B%7Bamount_with_comma_separator%7D%7D',
         options: {
   "product": {
@@ -222,3 +222,6 @@ image: "/images/products/muchila-cuero.jpg"
 })();
 /*]]>*/
 </script>
+
+
+
