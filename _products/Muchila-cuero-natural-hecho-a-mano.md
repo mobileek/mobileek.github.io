@@ -1,7 +1,7 @@
 ---
 name: Muchila de cuero natural hecho a mano
 price: €10,99
-image: "/images/img-31-07/Optical-Gaming-Mouse-USB-Gamer-Pro.jpg"
+image: "/images/products/muchilas-cuero/muchila-grande-marron.jpg"
 ---
 
 <div id='product-component-e85081490b0'></div>
