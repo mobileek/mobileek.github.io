@@ -1,7 +1,7 @@
 ---
 name: Auriculares Bluetooth Wireless con microfono para iPhone y Xiaomi 
 price: €10,00
-image: "/images/auriculares-aliexpress/Bluetooth-Wireless-Headphone-Auriculares.jpg"
+image: "/images/products/Bluetooth-auriculares.jpg"
 ---
 
 <div id='product-component-a5785536ed4'></div>
