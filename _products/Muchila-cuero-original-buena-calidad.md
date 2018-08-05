@@ -4,7 +4,7 @@ price: €30,00
 image: "/images/products/muchilas-cuero/muchila-gr-negro.jpg"
 ---
 
-<div id='product-component-745405b8f36'></div>
+<div id='product-component-6615fa9fa78'></div>
 <script type="text/javascript">
 /*<![CDATA[*/
 
@@ -38,7 +38,7 @@ image: "/images/products/muchilas-cuero/muchila-gr-negro.jpg"
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('product', {
         id: [1124564009004],
-        node: document.getElementById('product-component-745405b8f36'),
+        node: document.getElementById('product-component-6615fa9fa78'),
         moneyFormat: '%E2%82%AC%7B%7Bamount_with_comma_separator%7D%7D',
         options: {
   "product": {
