@@ -227,6 +227,7 @@ image: "/images/anillos-mujer/anillo-flower.jpg"
 
  Anillo chapado en oro de Alta calidad para Mujeres , es un anillo de piedras preciosas absolutamente impresionante.Este anillo es muy brillante, para mujeres brillantes.  
 
+Elija el tamaño que te corresponde. ver el cuadro de los tamaños de anillos.  
 Superficie ancho:15mm,20mm  
 
 Tipo de Metales:Cobre    
