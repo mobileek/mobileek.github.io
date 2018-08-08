@@ -1,6 +1,6 @@
 ---
 name: Anillo de compromiso princesa corte 3.7 CT ZIRCON color plata
-price: €19,99
+price: €10,99
 image: "/images/anillos-mujer/anillo-flower.jpg"
 ---
 
