@@ -1,10 +1,11 @@
 ---
-name: Anillo de compromiso princesa corte 3.7 CT ZIRCON color plata
-price: €10,99
-image: "/images/anillos-mujer/anillo-flower.jpg"
+name: Anillo fino con desiño atractivo.
+price: €19,99
+image: "/images/anillos-09-08/anillo-compromiso-bosa-matrimonio.jpg"
 ---
 
-<div id='product-component-bca029082ab'></div>
+
+<div id='product-component-ff23ff991b0'></div>
 <script type="text/javascript">
 /*<![CDATA[*/
 
@@ -37,8 +38,8 @@ image: "/images/anillos-mujer/anillo-flower.jpg"
 
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('product', {
-        id: [1134441725996],
-        node: document.getElementById('product-component-bca029082ab'),
+        id: [1134868398124],
+        node: document.getElementById('product-component-ff23ff991b0'),
         moneyFormat: '%E2%82%AC%7B%7Bamount_with_comma_separator%7D%7D',
         options: {
   "product": {
@@ -223,16 +224,4 @@ image: "/images/anillos-mujer/anillo-flower.jpg"
 /*]]>*/
 </script>
 
-
-
- Anillo chapado en oro de Alta calidad para Mujeres , es un anillo de piedras preciosas absolutamente impresionante.Este anillo es muy brillante, para mujeres brillantes.  
-
-Elija el tamaño que te corresponde. ver el cuadro de los tamaños de anillos.  
-Superficie ancho:15mm,20mm  
-
-Tipo de Metales:Cobre    
- 
-Material:Zirconia cúbica  
-
-
-
+Anillo fino con desiño atractivo.Para mujeres atractivas , llenas de emociones.Este es el regalo perfecto para una mujer especial.
