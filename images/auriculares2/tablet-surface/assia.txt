@@ -1,0 +1,45 @@
+https://support.microsoft.com/en-au/surfacerecoveryimage
+
+
+How-To Recover Your Surface RT
+Requirements:
+1) An extra computer
+2) A USB with any storage greater than 3 GB
+
+
+STEPS:
+1) Plug in your USB & go to softpedia.com/get/System/Back-Up-and-Recovery/Surface-RT-Recovery-Image.shtml (It is a safe download, I used it myself to downgrade)
+2) Extract it to your USB (If your USB has anything in it, you have to remove those files)
+3) Wait for it to finish extracting
+4) Unplug the USB
+5) Plug it into your Surface
+6) Hold down Power + Volume Down until you see the Surface splash screen
+7) Wait for it to load, then select your language and your keyboard type
+8) If it asks for a "BitLocker Passcode", a copy of it is saved on your Microsoft Account.
+9) Click on 'Advanced Options' (?).
+10) Click on 'Reset'
+11) Wait until it is done wiping the computer, and then...
+12) Configure your device (customize, connect to a network, etc...)
+13) DO WHATERVER YOU WANT WITH IT!!!
+14) Thank me if it works (PLZ)
+Hope it worked! 
+
+https://www.youtube.com/watch?v=n1Z1AgUFQWc
+
+
+https://www.youtube.com/watch?v=3lTpfdy6zcU
+
+
+029978734652
+
+
+
+https://support.microsoft.com/en-ie/help/4023512/surface-creating-and-using-a-usb-recovery-drive
+
+
+
+to restore  use : 
+
+https://www.youtube.com/watch?v=tShKxTNgoO8
+
+https://www.youtube.com/watch?v=HmQtM_LkSz4
