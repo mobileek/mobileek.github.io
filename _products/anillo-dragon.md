@@ -1,7 +1,8 @@
 ---
 name: Anillo Dragon de acero inoxidable
 price: €10,00
-image: "/images/anillo-dragon/Rings-Stainless-Steel-Women.jpg"
+image: "/images/photos/anillo-dragon-inoxidable.jpg"
+
 ---
 
 <div id='product-component-6767472fa58'></div>

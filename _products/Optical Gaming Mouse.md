@@ -1,7 +1,7 @@
 ---
 name: Optical Gaming Mouse 3000DPI 2 Button Black
 price: €10,99
-image: "/images/img-31-07/Optical-Gaming-Mouse-USB-Gamer-Pro.jpg"
+image: "/images/photos/Optical-Gaming-Mouse-USB-Gamer.jpg"
 ---
 
 <div id='product-component-eca5a7d0e34'></div>

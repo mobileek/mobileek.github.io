@@ -1,7 +1,7 @@
 ---
 name: Anillo yasmin 925 sterling silver plata , 
 price: €19,99
-image: "/images/yasmin-anillo/anillo-yassmin.jpg"
+image: "/images/photos/anillo-yassmin.jpg"
 ---
 
 <div id='product-component-4fb57c08a10'></div>

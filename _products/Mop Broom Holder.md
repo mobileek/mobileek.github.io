@@ -1,10 +1,10 @@
 ---
-name: Anillo fino con desiño atractivo.
-price: €19,99
-image: "/images/photos/anillo-compromiso-bosa-matrimonio.jpg"
+name: Mop Broom Holder
+price: 18,99€
+image: "/images/Escoba-Mop-titular-de-la-cocina-organizador-de-pared-5-posiciones.jpg"
 ---
 
-<div id='product-component-5df17b51dc4'></div>
+<div id='product-component-e4f7c9e785b'></div>
 <script type="text/javascript">
 /*<![CDATA[*/
 
@@ -37,8 +37,8 @@ image: "/images/photos/anillo-compromiso-bosa-matrimonio.jpg"
 
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('product', {
-        id: [1134868398124],
-        node: document.getElementById('product-component-5df17b51dc4'),
+        id: [1104514154540],
+        node: document.getElementById('product-component-e4f7c9e785b'),
         moneyFormat: '%E2%82%AC%7B%7Bamount_with_comma_separator%7D%7D',
         options: {
   "product": {
@@ -224,5 +224,15 @@ image: "/images/photos/anillo-compromiso-bosa-matrimonio.jpg"
 </script>
 
 
-Anillo fino con desiño atractivo.Para mujeres atractivas , llenas de emociones.Este es el regalo perfecto para una mujer especial.
-Anillo 925 plata esterlina 0.2 ct Cubic Zirconia.
+Las ranuras se ajustan automáticamente para adaptarse a cualquier tamaño de mango, con función de liberación para una extracción sin esfuerzo.
+Con ganchos retráctiles para colgar cosas más ligeras, como trapos de limpieza, cepillos.
+Ahorro de espacio, libera espacio en el piso: perfecto para la cocina, el armario, el cuarto de servicio, la oficina, etc.
+Fácil de instalar: montado en la pared, viene con tornillos de instalación, rápido y fácil de instalar.
+  Nota :  el envio puede tardar de 12 a 25 días.Gracias por confiar en nosotros.
+
+  Especificaciones del artículo
+  
+  
+Tipo:Soportes y Bastidores de almacenamientoNúmero de modelo:5 Position Mop Broom Holder ToolNúmero de Niveles:IndividualCaracterística:Disponible en stock,EcológicoEspacio apropiado:CocinaMaterial:PlásticoClasificación:Estante no plegableTipo de instalación:Pared Tipo MontadaTipo de plástico:ABSUso:Broom HolderType:Kitchen OrganizerApplication:Kitchen Storage
+
+Peso del paquete: 0.5kg (1.10lb.) Dimensiones del paquete: 45cm x 12cm x 14cm 

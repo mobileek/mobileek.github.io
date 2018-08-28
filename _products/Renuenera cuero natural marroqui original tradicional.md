@@ -1,10 +1,10 @@
 ---
-name: Anillo fino con desiño atractivo.
-price: €19,99
-image: "/images/photos/anillo-compromiso-bosa-matrimonio.jpg"
+name: Renuenera cuero natural marroqui original tradicional
+price: €12,99    
+image: "/images/renuenera-negro.jpg"
 ---
 
-<div id='product-component-5df17b51dc4'></div>
+<div id='product-component-d190aaaf419'></div>
 <script type="text/javascript">
 /*<![CDATA[*/
 
@@ -37,8 +37,8 @@ image: "/images/photos/anillo-compromiso-bosa-matrimonio.jpg"
 
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('product', {
-        id: [1134868398124],
-        node: document.getElementById('product-component-5df17b51dc4'),
+        id: [1123724034092],
+        node: document.getElementById('product-component-d190aaaf419'),
         moneyFormat: '%E2%82%AC%7B%7Bamount_with_comma_separator%7D%7D',
         options: {
   "product": {
@@ -223,6 +223,4 @@ image: "/images/photos/anillo-compromiso-bosa-matrimonio.jpg"
 /*]]>*/
 </script>
 
-
-Anillo fino con desiño atractivo.Para mujeres atractivas , llenas de emociones.Este es el regalo perfecto para una mujer especial.
-Anillo 925 plata esterlina 0.2 ct Cubic Zirconia.
+Renuenera cuero natural marroqui original tradicional , todo echo a mano y natural, sin ñadir productos quimicos.
