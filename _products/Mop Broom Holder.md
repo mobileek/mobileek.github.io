@@ -4,7 +4,7 @@ price: 18,99€
 image: "/images/mop.jpg"
 ---
 
-<div id='product-component-e4f7c9e785b'></div>
+<div id='product-component-7214cc62160'></div>
 <script type="text/javascript">
 /*<![CDATA[*/
 
@@ -31,14 +31,13 @@ image: "/images/mop.jpg"
   function ShopifyBuyInit() {
     var client = ShopifyBuy.buildClient({
       domain: 'mobileek.myshopify.com',
-      apiKey: '82083d7fef2773ffdb4f27f907402c59',
-      appId: '6',
+      storefrontAccessToken: '82083d7fef2773ffdb4f27f907402c59',
     });
 
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('product', {
-        id: [1104514154540],
-        node: document.getElementById('product-component-e4f7c9e785b'),
+        id: [1110937108524],
+        node: document.getElementById('product-component-7214cc62160'),
         moneyFormat: '%E2%82%AC%7B%7Bamount_with_comma_separator%7D%7D',
         options: {
   "product": {
@@ -222,7 +221,6 @@ image: "/images/mop.jpg"
 })();
 /*]]>*/
 </script>
-
 
 Las ranuras se ajustan automáticamente para adaptarse a cualquier tamaño de mango, con función de liberación para una extracción sin esfuerzo.
 Con ganchos retráctiles para colgar cosas más ligeras, como trapos de limpieza, cepillos.
