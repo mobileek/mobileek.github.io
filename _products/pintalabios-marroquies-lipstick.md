@@ -1,7 +1,7 @@
 ---
 name: Pintalabios Marroquies magicos lipstick  color cambia de verde a rosa
 price: €11,00
-image: "images\image03-08-18/pintalabios-marroquies-lipstick.jpg"
+image: "images/pintalabios-lipstick-marroqui.jpg"
 ---
 
 
