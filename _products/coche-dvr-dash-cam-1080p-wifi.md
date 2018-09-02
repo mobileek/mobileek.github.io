@@ -1,7 +1,7 @@
 ---
 name: 1080p WiFi DVR Dash Cam Full HD
 price: €49,99
-image: /images/products/coche-dvr-dash-cam-1080p-wifi.jpg
+image: /images/coche-dvr-dash-cam-1080p-wifi.jpg
 source: "theviralgadgets.com/products/1080p-wifi-dvr-dash-cam es.aliexpress.com/store/product/Novatek-Full-HD-1080P-WIFI-Car-DVR-Dash-Cam-Night-Vision-Car-Camera-Night-Vision-Decor/1833125_32806964542.html"
 ---
 
