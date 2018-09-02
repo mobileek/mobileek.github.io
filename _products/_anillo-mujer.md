@@ -1,10 +1,10 @@
 ---
-name: Reloj inteligente DZ09
-price: €19,99
-image: "/images/anillo-plata-925.jpg"
+name: Anillo de compromiso princesa corte 3.7 CT ZIRCON color plata
+price: €10,99
+image: "/images/anillos-mujer/anillo-flower.jpg"
 ---
 
-<div id='product-component-c897d8ad57a'></div>
+<div id='product-component-bca029082ab'></div>
 <script type="text/javascript">
 /*<![CDATA[*/
 
@@ -31,13 +31,14 @@ image: "/images/anillo-plata-925.jpg"
   function ShopifyBuyInit() {
     var client = ShopifyBuy.buildClient({
       domain: 'mobileek.myshopify.com',
-      storefrontAccessToken: '82083d7fef2773ffdb4f27f907402c59',
+      apiKey: '82083d7fef2773ffdb4f27f907402c59',
+      appId: '6',
     });
 
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('product', {
-        id: [1152300449836],
-        node: document.getElementById('product-component-c897d8ad57a'),
+        id: [1134441725996],
+        node: document.getElementById('product-component-bca029082ab'),
         moneyFormat: '%E2%82%AC%7B%7Bamount_with_comma_separator%7D%7D',
         options: {
   "product": {
@@ -223,4 +224,15 @@ image: "/images/anillo-plata-925.jpg"
 </script>
 
 
-anillo de plata esterlina s925 de buena calidad.
+
+ Anillo chapado en oro de Alta calidad para Mujeres , es un anillo de piedras preciosas absolutamente impresionante.Este anillo es muy brillante, para mujeres brillantes.  
+
+Elija el tamaño que te corresponde. ver el cuadro de los tamaños de anillos.  
+Superficie ancho:15mm,20mm  
+
+Tipo de Metales:Cobre    
+ 
+Material:Zirconia cúbica  
+
+
+
