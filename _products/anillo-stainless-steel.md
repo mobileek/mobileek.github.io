@@ -1,7 +1,7 @@
 ---
 name: Anillo de acero inoxidable stainless steel
 price: €9,00
-image: "/images/anillo-love/anillo-love.jpg"
+image: "/images/anillo-love-stainless-steel.jpg"
 ---
 
 <div id='product-component-469a46a30be'></div>

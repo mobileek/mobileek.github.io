@@ -1,7 +1,7 @@
 ---
 name: Cartera cuero marroqui original echo a mano
 price: €12,00
-image: "/images/products/cartera-cuero-roja-face.jpg"
+image: "/images/cartera-cueco-marroqui-mujer.jpg"
 ---
 
 <div id='product-component-baafd265027'></div>
